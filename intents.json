@@ -1,0 +1,2240 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Jai Hind"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "help me out", "i need help", "please help"],
+      "responses": [
+        "Hi! I am the Delhi Police Bot! Ask me about election related details such as\n1 : dos and donts in elections\n2: ask me about legal provisions\n3: ask me about permissible and non permissible activities\n4:ask me about important contacts\n5: ask me about the provisions provided in the IPC\n"
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "important contacts of south district?",
+        "Important contacts of election cell",
+        "Contacts of election cell of south district"
+      ],
+      "responses": [
+        "1 Inspr Ghanshyam Kishore  Election Cell SD  9873772000 \n 2 Inspr Vijay Dhayia  Inspr Election Cell  9999173026 \n3 SI Anil Beniwal  Election Cell  8750870595 \n4 SI Ashok Kumar Election Cell  9289800634 \n5 SI Sunil Kumar  Election Cell  9582560488 \n6 SI Mohan Lal  Election Cell  9910399448 District Control Room-South District  011 26523967 011-26528994 \nCentral Police Control Room 112"
+      ]
+    },
+    {
+      "tag": "section_171-E",
+      "patterns": [
+        "giving and accepting bribe",
+        "What is provision for giving and accepting bribe?",
+        "What is the punishment for giving and accepting bribe?",
+        "Is giving and accepting bribe cognizable?",
+        "Is giving and accepting bribe bailable?"
+      ],
+      "responses": [
+        "Section 171-E of IPC\nPunishment: 1 year or fine or both\nCognizable: Yes\nBailable: No"
+      ]
+    },
+    {
+      "tag": "section_171-E-converse",
+      "patterns": ["section 171 E", "171 e", "171E"],
+      "responses": [
+        "section 171-E of IPC\nOffense: giving and accepting bribe\nPunishment: 1 year or fine or both\nCognizable: Yes\nBailable: No"
+      ]
+    },
+    {
+      "tag": "section_171-F",
+      "patterns": [
+        "undue influence at an election",
+        "Using undue influence or Personation at an election",
+        "What is provision for using undue influence or Personation at an election?",
+        "What is the punishment for using undue influence or Personation at an election?",
+        "Is using undue influence or Personation at an election cognizable?",
+        "Is using undue influence or Personation at an election bailable?"
+      ],
+      "responses": [
+        "Section 171-F of IPC\nPunishment: 1 year or fine or both\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_171-F-converse",
+      "patterns": ["section 171 F", "171 f", "171F"],
+      "responses": [
+        "section 171-F of IPC\nOffense: using undue influence or personation at an election\nPunishment: 1 year or fine or both\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_171-G",
+      "patterns": [
+        "false statement in election",
+        "False statement in connection with election",
+        "What is provision for false statement in connection with election?",
+        "What is the punishment for false statement in connection with election?",
+        "Is false statement in connection with election cognizable?",
+        "Is false statement in connection with election bailable?",
+        "what is the legal provision if a person gives a false statement in election?"
+      ],
+      "responses": [
+        "Section 171-G of IPC\nPunishment: Fine\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_171-G-converse",
+      "patterns": ["section 171 G", "171 g", "171G"],
+      "responses": [
+        "section 171-G of IPC\nOffense: false statement in connection with election\nPunishment: Fine\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_171-HIPC",
+      "patterns": [
+        "punishment for illegal payment in election",
+        "illegal payment in election",
+        "Illegal payment in connection with election",
+        "What is provision for illegal payment in connection with election?",
+        "What is the punishment for illegal payment in connection with election?",
+        "Is illegal payment in connection with election cognizable?",
+        "Is illegal payment in connection with election bailable?"
+      ],
+      "responses": [
+        "Section 171-HIPC of IPC\nPunishment: Rs.500/-\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_171-H-converse",
+      "patterns": ["section 171 H", "171 h", "171H"],
+      "responses": [
+        "section 171-H of IPC\nOffense: illegal payment in connection with election\nPunishment: Rs.500/-\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_171-I",
+      "patterns": [
+        "election accounts failure",
+        "failure in keeping election accounts",
+        "failure to keep election Accounts",
+        "What is provision for failure to keep election Accounts?",
+        "What is the punishment for failure to keep election Accounts?",
+        "Is failure to keep election Accounts cognizable?",
+        "Is failure to keep election Accounts bailable?"
+      ],
+      "responses": [
+        "Section 171-I of IPC\nPunishment: -do-\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_171-I-converse",
+      "patterns": ["section 171 I", "171 i", "171I"],
+      "responses": [
+        "section 171-I of IPC\nOffense: failure to keep election accounts\nPunishment: -do-\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_153-A(1)",
+      "patterns": [
+        "social groups enmity",
+        "enmity between social groups",
+        "promoting enmity between social groups",
+        "promoting enmity between different social groups leading to disharmony",
+        "What is provision for promoting enmity between different social groups leading to disharmony?",
+        "What is the punishment for promoting enmity between different social groups leading to disharmony?",
+        "Is promoting enmity between different social groups leading to disharmony cognizable?",
+        "Is promoting enmity between different social groups leading to disharmony bailable?"
+      ],
+      "responses": [
+        "Section 153-A(1) of IPC \n- Punishment: 3 Years or fine or both \n- Cognizable: Yes \n- Bailable: No"
+      ]
+    },
+    {
+      "tag": "section_153-A(1)-converse",
+      "patterns": ["section 153-A(1)", "153 A(1)", "153A(1)"],
+      "responses": [
+        "section 153-A(1) of IPC\nOffense: promoting enmity between different social groups leading to disharmony\nPunishment: 3 Years or fine or both\nCognizable: Yes\nBailable: No"
+      ]
+    },
+    {
+      "tag": "section_153-A(2)-converse",
+      "patterns": [
+        "section 153-A(2)",
+        "153 A(2)",
+        "153A(2)",
+        "153 a 2",
+        "153 A2",
+        "153 a2"
+      ],
+      "responses": [
+        "section 153-A(2) of IPC\nOffense: promoting enmity between social groups leading to disharmony in religious place or religious gathering\nPunishment: 5 years and fine also\nCognizable: Yes\nBailable: No"
+      ]
+    },
+    {
+      "tag": "section_153-A(2)",
+      "patterns": [
+        "religious gathering enmity",
+        "religious place enmity",
+        "enmity between social groups religious place",
+        "Promoting enmity between social group leading to disharmony in religious place or religious gathering",
+        "What is provision for promoting enmity between social group leading to disharmony in religious place or religious gathering?",
+        "What is the punishment for promoting enmity between social group leading to disharmony in religious place or religious gathering?",
+        "Is promoting enmity between social group leading to disharmony in religious place or religious gathering cognizable?",
+        "Is promoting enmity between social group leading to disharmony in religious place or religious gathering bailable?"
+      ],
+      "responses": [
+        "Section 153-A(2) of IPC \n- Punishment: 5 years and fine also \n- Cognizable: Yes \n- Bailable: No"
+      ]
+    },
+    {
+      "tag": "section_153-B(1)",
+      "patterns": [
+        "Imputation assertions prejudicial to national integration",
+        "What is provision for imputation assertions prejudicial to national integration?",
+        "What is the punishment for imputation assertions prejudicial to national integration?",
+        "Is imputation assertions prejudicial to national integration cognizable?",
+        "Is imputation assertions prejudicial to national integration bailable?"
+      ],
+      "responses": [
+        "Section 153-B(1) of IPC \n- Punishment: 3 years & fine or both \n- Cognizable: Yes \n- Bailable: No"
+      ]
+    },
+    {
+      "tag": "section_153-B(1)-converse",
+      "patterns": [
+        "section 153-B(1)",
+        "153 B(1)",
+        "153B(1)",
+        "153 B 1",
+        "153 b1",
+        "153 B1"
+      ],
+      "responses": [
+        "section 153-B(1) of IPC\nOffense: imputation assertions prejudicial to national integration\nPunishment: 3 years & fine or both\nCognizable: Yes\nBailable: No"
+      ]
+    },
+    {
+      "tag": "section_153-B(2)",
+      "patterns": [
+        "Imputations assertion prejudicial to national integration committed at a religious place or gathering",
+        "What is provision for imputations assertion prejudicial to national integration committed at a religious place or gathering?",
+        "What is the punishment for imputations assertion prejudicial to national integration committed at a religious place or gathering?",
+        "Is imputations assertion prejudicial to national integration committed at a religious place or gathering cognizable?",
+        "Is imputations assertion prejudicial to national integration committed at a religious place or gathering bailable?"
+      ],
+      "responses": [
+        "Section 153-B(2) of IPC \n- Punishment: 5 years & also fine \n- Cognizable: Yes \n- Bailable: No"
+      ]
+    },
+    {
+      "tag": "section_153-B(2)-converse",
+      "patterns": [
+        "section 153-B(2)",
+        "153 B(2)",
+        "153B(2)",
+        "153 b 2",
+        "153 B2"
+      ],
+      "responses": [
+        "section 153-B(2) of IPC\nOffense: imputations assertion prejudicial to national integration committed at a religious place or gathering\nPunishment: 5 years & also fine\nCognizable: Yes\nBailable: No"
+      ]
+    },
+    {
+      "tag": "section_31_RPA",
+      "patterns": [
+        "making false declaration",
+        "Making false declaration",
+        "What is provision for making false declaration?",
+        "What is the punishment for making false declaration?",
+        "Is making false declaration cognizable?",
+        "Is making false declaration bailable?"
+      ],
+      "responses": [
+        "Section 31 RPA \n- Punishment: One year or fine or both \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_31-RPA-converse",
+      "patterns": ["section 31 RPA", "31 RPA", "31RPA"],
+      "responses": [
+        "section 31 RPA\nOffense: making false declaration\nPunishment: One year or fine or both\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_32_RPA",
+      "patterns": [
+        "Breach of official duty",
+        "What is provision for breach of official duty?",
+        "What is the punishment for breach of official duty?",
+        "Is breach of official duty cognizable?",
+        "Is breach of official duty bailable?"
+      ],
+      "responses": [
+        "Section 32-RPA \n- Punishment: 3 months to 2 years with fine \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_32-RPA-converse",
+      "patterns": ["section 32 RPA", "32 RPA", "32RPA"],
+      "responses": [
+        "section 32-RPA\nOffense: breach of official duty\nPunishment: 3 months to 2 years with fine\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_125_RPA",
+      "patterns": [
+        "Promoting enmity between classes in c/w election",
+        "What is provision for promoting enmity between classes in c/w election?",
+        "What is the punishment for promoting enmity between classes in c/w election?",
+        "Is promoting enmity between classes in c/w election cognizable?",
+        "Is promoting enmity between classes in c/w election bailable?"
+      ],
+      "responses": [
+        "Section 125-RPA \n- Punishment: 3 years or fine or both \n- Cognizable: Yes \n- Bailable: No"
+      ]
+    },
+    {
+      "tag": "section_125-RPA-converse",
+      "patterns": ["section 125 RPA", "125 RPA", "125RPA"],
+      "responses": [
+        "section 125-RPA\nOffense: promoting enmity between classes in connection with election\nPunishment: 3 years or fine or both\nCognizable: Yes\nBailable: No"
+      ]
+    },
+    {
+      "tag": "section_126_RPA",
+      "patterns": [
+        "Holding of public meeting on the preceding day the polling day",
+        "What is provision for holding of public meeting on the preceding day the polling day?",
+        "What is the punishment for holding of public meeting on the preceding day the polling day?",
+        "Is holding of public meeting on the preceding day the polling day cognizable?",
+        "Is holding of public meeting on the preceding day the polling day bailable?"
+      ],
+      "responses": [
+        "Section 126-RPA \n- Punishment: Rs.250/- \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_126-RPA-converse",
+      "patterns": ["section 126 RPA", "126 RPA", "126RPA"],
+      "responses": [
+        "section 126-RPA\nOffense: holding of public meeting on the preceding day the polling day\nPunishment: Rs.250/-\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_127_RPA",
+      "patterns": [
+        "Causing disturbance at election meeting",
+        "What is provision for causing disturbance at election meeting?",
+        "What is the punishment for causing disturbance at election meeting?",
+        "Is causing disturbance at election meeting cognizable?",
+        "Is causing disturbance at election meeting bailable?"
+      ],
+      "responses": [
+        "Section 127-RPA \n- Punishment: 6 months or Rs.2000/- or both \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_127-RPA-converse",
+      "patterns": ["section 127 RPA", "127 RPA", "127RPA"],
+      "responses": [
+        "section 127-RPA\nOffense: causing disturbance at election meeting\nPunishment: 6 months or Rs.2000/- or both\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_127_RPA_A",
+      "patterns": [
+        "Failure to mention name and address of printer/publisher on pamphlets",
+        "What is provision for failure to mention name and address of printer/publisher on pamphlets?",
+        "What is the punishment for failure to mention name and address of printer/publisher on pamphlets?",
+        "Is failure to mention name and address of printer/publisher on pamphlets cognizable?",
+        "Is failure to mention name and address of printer/publisher on pamphlets bailable?"
+      ],
+      "responses": [
+        "Section 127-RPA (A) \n- Punishment: 6 months or Rs.2000/- or both \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_127-RPA(A)-converse",
+      "patterns": ["section 127 RPA (A)", "127 RPA (A)", "127RPA(A)"],
+      "responses": [
+        "section 127-RPA (A)\nOffense: failure to mention name and address of printer/publisher on pamphlets\nPunishment: 6 months or Rs.2000/- or both\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_128_RPA",
+      "patterns": [
+        "Violation of secrecy by staff in respect of voting and posters etc.",
+        "What is provision for violation of secrecy by staff in respect of voting and posters etc.?",
+        "What is the punishment for violation of secrecy by staff in respect of voting and posters etc.?",
+        "Is violation of secrecy by staff in respect of voting and posters etc. cognizable?",
+        "Is violation of secrecy by staff in respect of voting and posters etc. bailable?"
+      ],
+      "responses": [
+        "Section 128-RPA \n- Punishment: 3 months or fine or both \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_128-RPA-converse",
+      "patterns": ["section 128 RPA", "128 RPA", "128RPA"],
+      "responses": [
+        "section 128-RPA\nOffense: violation of secrecy by staff in respect of voting and posters etc.\nPunishment: 3 months or fine or both\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_129_RPA_3",
+      "patterns": [
+        "use of influence by officer on duty at election for voting",
+        "Use of influence by officer on duty at an election for voting",
+        "What is provision for use of influence by officer on duty at an election for voting?",
+        "What is the punishment for use of influence by officer on duty at an election for voting?",
+        "Is use of influence by officer on duty at an election for voting cognizable?",
+        "Is use of influence by officer on duty at an election for voting bailable?"
+      ],
+      "responses": [
+        "Section 129 (3) RPA \n- Punishment: 6 months or fine or both \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_130_2_RPA",
+      "patterns": [
+        "canvassing on polling day",
+        "Canvassing on polling day",
+        "What is provision for canvassing on polling day?",
+        "What is the punishment for canvassing on polling day?",
+        "Is canvassing on polling day cognizable?",
+        "Is canvassing on polling day bailable?"
+      ],
+      "responses": [
+        "Section 130(2) RPA \n- Punishment: Rs.250/- \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_130(2)-RPA-converse",
+      "patterns": ["section 130(2) RPA", "130(2) RPA", "130(2)RPA"],
+      "responses": [
+        "section 130(2)-RPA\nOffense: canvassing on polling day\nPunishment: Rs.250/-\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_131_2_RPA",
+      "patterns": [
+        "disorderly conduct in polling station",
+        "disorderly conduct near polling station",
+        "Disorderly conduct in or near polling station",
+        "What is provision for disorderly conduct in or near polling station?",
+        "What is the punishment for disorderly conduct in or near polling station?",
+        "Is disorderly conduct in or near polling station cognizable?",
+        "Is disorderly conduct in or near polling station bailable?"
+      ],
+      "responses": [
+        "Section 131(2) RPA \n- Punishment: 3 months or fine or both \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_131(2)-RPA-converse",
+      "patterns": ["section 131(2) RPA", "131(2) RPA", "131(2)RPA"],
+      "responses": [
+        "section 131(2)-RPA\nOffense: disorderly conduct in or near polling station\nPunishment: 3 months or fine or both\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_132_RPA",
+      "patterns": [
+        "Misconduct at polling station",
+        "What is provision for misconduct at polling station?",
+        "What is the punishment for misconduct at polling station?",
+        "Is misconduct at polling station cognizable?",
+        "Is misconduct at polling station bailable?"
+      ],
+      "responses": [
+        "Section 132-RPA \n- Punishment: 3 months or fine or both \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_132-RPA-converse",
+      "patterns": ["section 132 RPA", "132 RPA", "132RPA"],
+      "responses": [
+        "section 132-RPA\nOffense: misconduct at polling station\nPunishment: 3 months or fine or both\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_133_RPA",
+      "patterns": [
+        "illegal transporation of voters",
+        "Illegal procuring/hiring of vehicles at an election for transportation of voters",
+        "What is provision for illegal procuring/hiring of vehicles at an election for transportation of voters?",
+        "What is the punishment for illegal procuring/hiring of vehicles at an election for transportation of voters?",
+        "Is illegal procuring/hiring of vehicles at an election for transportation of voters cognizable?",
+        "Is illegal procuring/hiring of vehicles at an election for transportation of voters bailable?"
+      ],
+      "responses": [
+        "Section 133-RPA \n- Punishment: 3 months with fine \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_133-RPA-converse",
+      "patterns": ["section 133 RPA", "133 RPA", "133RPA"],
+      "responses": [
+        "section 133-RPA\nOffense: illegal procuring/hiring of vehicles at an election for transportation of voters\nPunishment: 3 months with fine\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_134_RPA",
+      "patterns": [
+        "Breach of official duty in connection with election",
+        "What is provision for breach of official duty in connection with election?",
+        "What is the punishment for breach of official duty in connection with election?",
+        "Is breach of official duty in connection with election cognizable?",
+        "Is breach of official duty in connection with election bailable?"
+      ],
+      "responses": [
+        "Section 134-RPA \n- Punishment: Rs.500/- \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_134-RPA-converse",
+      "patterns": ["section 134 RPA", "134 RPA", "134RPA"],
+      "responses": [
+        "section 134-RPA\nOffense: breach of official duty in connection with election\nPunishment: Rs.500/-\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_134_A_RPA",
+      "patterns": [
+        "Acting as electing agent, polling agent or counting agent by Govt. Servant",
+        "What is provision for acting as electing agent, polling agent or counting agent by Govt. Servant?",
+        "What is the punishment for acting as electing agent, polling agent or counting agent by Govt. Servant?",
+        "Is acting as electing agent, polling agent or counting agent by Govt. Servant cognizable?",
+        "Is acting as electing agent, polling agent or counting agent by Govt. Servant bailable?"
+      ],
+      "responses": [
+        "Section 134(A) RPA \n- Punishment: 3 months or fine or both \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_134(A)-RPA-converse",
+      "patterns": ["section 134(A) RPA", "134(A) RPA", "134(A)RPA"],
+      "responses": [
+        "section 134(A)-RPA\nOffense: acting as electing agent, polling agent or counting agent by Govt. Servant\nPunishment: 3 months or fine or both\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_134_B_RPA",
+      "patterns": [
+        "Prohibition of going armed to or near a polling station",
+        "What is provision for prohibition of going armed to or near a polling station?",
+        "What is the punishment for prohibition of going armed to or near a polling station?",
+        "Is prohibition of going armed to or near a polling station cognizable?",
+        "Is prohibition of going armed to or near a polling station bailable?"
+      ],
+      "responses": [
+        "Section 134 (B) RPA \n- Punishment: 2 years or with fine or both \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_134(B)-RPA-converse",
+      "patterns": ["section 134(B) RPA", "134(B) RPA", "134(B)RPA"],
+      "responses": [
+        "section 134(B)-RPA\nOffense: prohibition of going armed to or near a polling station\nPunishment: 2 years or with fine or both\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_135_1_RPA",
+      "patterns": [
+        "removal of ballot paper",
+        "ballot paper removed",
+        "removal of ballot paper",
+        "Removal of Ballot-papers from polling stations",
+        "What is provision for removal of Ballot-papers from polling stations?",
+        "What is the punishment for removal of Ballot-papers from polling stations?",
+        "Is removal of Ballot-papers from polling stations cognizable?",
+        "Is removal of Ballot-papers from polling stations bailable?"
+      ],
+      "responses": [
+        "Section 135 (1) RPA \n- Punishment: 1 year or Rs.500/- or both \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_135(1)-RPA-converse",
+      "patterns": ["section 135(1) RPA", "135(1) RPA", "135(1)RPA"],
+      "responses": [
+        "section 135(1)-RPA\nOffense: removal of Ballot-papers from polling stations\nPunishment: 1 year or Rs.500/- or both\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_135_A_RPA",
+      "patterns": [
+        "booth captured publically",
+        "booth captured by public",
+        "booth captured by govt servant",
+        "booth captured",
+        "booth capturing",
+        "Booth capturing by a) Govt Servant on duty b) Public",
+        "What is provision for booth capturing by a) Govt Servant on duty b) Public?",
+        "What is the punishment for booth capturing by a) Govt Servant on duty b) Public?",
+        "Is booth capturing by a) Govt Servant on duty b) Public cognizable?",
+        "Is booth capturing by a) Govt Servant on duty b) Public bailable?"
+      ],
+      "responses": [
+        "Section 135 (A) RPA \n- Punishment: \n    (a) 3 year to 5 years with fine. \n    (b) 1 year to 3 year with fine for others \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_135(A)-RPA-converse",
+      "patterns": ["section 135(A) RPA", "135(A) RPA", "135(A)RPA"],
+      "responses": [
+        "section 135(A)-RPA\nOffense: booth capturing by a) Govt Servant on duty b) Public\nPunishment: (a) 3 year to 5 years with fine. (b) 1 year to 3 year with fine for others\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_135_c_RPA",
+      "patterns": [
+        "liquor sale polling date",
+        "liquor sale on polling",
+        "liquor sold on poll",
+        "Liquor not to be sold, given or distributed on polling date",
+        "What is provision for liquor not to be sold, given or distributed on polling date?",
+        "What is the punishment for liquor not to be sold, given or distributed on polling date?",
+        "Is liquor not to be sold, given or distributed on polling date cognizable?",
+        "Is liquor not to be sold, given or distributed on polling date bailable?"
+      ],
+      "responses": [
+        "Section 135 (c) RPA \n- Punishment: 6 months with fine of Rs.2000/- or both \n- Cognizable: No \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_135(C)-RPA-converse",
+      "patterns": ["section 135(C) RPA", "135(C) RPA", "135(C)RPA"],
+      "responses": [
+        "section 135(C)-RPA\nOffense: liquor not to be sold, given or distributed on polling date\nPunishment: 6 months with fine of Rs.2000/- or both\nCognizable: No\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_136_2_RPA",
+      "patterns": [
+        "invalid paper in ballot box",
+        "paper other than ballot paper in ballot box",
+        "fradulent act in document",
+        "fraudulent act in list notice",
+        "fraudulent act in respect paper",
+        "Fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public",
+        "What is provision for fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public?",
+        "What is the punishment for fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public?",
+        "Is fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box cognizable?",
+        "Is fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box bailable?"
+      ],
+      "responses": [
+        "Section 136 (2) RPA \n- Punishment: \n    (a) 2 years or fine or both \n    (b) 6 months or fine or both \n- Cognizable: Yes \n- Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "section_136(2)-RPA-converse",
+      "patterns": ["section 136(2) RPA", "136(2) RPA", "136(2)RPA"],
+      "responses": [
+        "section 136(2)-RPA\nOffense: fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public.\nPunishment: (a) 2 years or fine or both (b) 6 months or fine or both\nCognizable: Yes\nBailable: Yes"
+      ]
+    },
+    {
+      "tag": "definition_Cognizable",
+      "patterns": [
+        "define cognizable",
+        "what is meant by cognizable",
+        "what does cognizable mean?",
+        "what does it mean to be cognizable?"
+      ],
+      "responses": [
+        "A Cognizable offence or case is defined as the one which an officer in-charge of a police station may investigate without the order of a magistrate and effect arrest without warrant"
+      ]
+    },
+    {
+      "tag": "definition_Bailable",
+      "patterns": [
+        "define bailable",
+        "what is meant by bailable offences",
+        "what does bailable mean",
+        "what does it mean to be bailable?"
+      ],
+      "responses": [
+        "Bailable offences are those offences or crimes that are not very serious in nature. In such cases bail is a right and the arrested person must be released after depositing the bail with the police. The police have the power to grant bail in these types of cases."
+      ]
+    },
+    {
+      "tag": "election_offences",
+      "patterns": [
+        "all legal provisions",
+        "list all of the legal provisions related to elections",
+        "What are the legal provisions relating to elections?",
+        "List of election offences",
+        "Election laws"
+      ],
+      "responses": [
+        "1. Giving and accepting bribe for election - Section 171-E of IPC - Punishment: 1 year or fine or both - Cognizable: Yes - Bailable: No \n2. Using undue influence or Personation at an election - Section 171-F of IPC - Punishment: 1 year or fine or both - Cognizable: Yes - Bailable: Yes \n3. False statement in connection with election - Section 171-G of IPC - Punishment: Fine - Cognizable: No - Bailable: Yes \n4. Illegal payment in connection with election - Section 171-HIPC of IPC - Punishment: Rs.500/- - Cognizable: No - Bailable: Yes \n5. Failure to keep election Accounts - Section 171-I of IPC - Punishment: -do- - Cognizable: No - Bailable: Yes \n6. Promoting enmity between different social groups leading to disharmony - Section 153-A(1) of IPC - Punishment: 3 Years or fine or both - Cognizable: Yes - Bailable: No\n 7. Promoting enmity between social group leading to disharmony in religious place or religious gathering - Section 153-A(2) of IPC - Punishment: 5 years and fine also - Cognizable: Yes - Bailable: No \n8. Imputation assertions prejudicial to national integration - Section 153-B(1) of IPC - Punishment: 3 years & fine or both - Cognizable: Yes - Bailable: No \n9. Imputations assertion prejudicial to national integration committed at a religious place or gathering - Section 153-B(2) of IPC - Punishment: 5 years & also fine - Cognizable: Yes - Bailable: No \n10. Making false declaration - Section 31 RPA - Punishment: One year or fine or both - Cognizable: No - Bailable: Yes \n11. Breach of official duty - Section 32-RPA - Punishment: 3 months to 2 years with fine - Cognizable: No - Bailable: Yes \n12. Promoting enmity between classes in c/w election - Section 125-RPA - Punishment: 3 years or fine or both - Cognizable: Yes - Bailable: No \n13. Holding of public meeting on the preceding day the polling day - Section 126-RPA - Punishment: Rs.250/- - Cognizable: No - Bailable: Yes \n14. Causing disturbance at election meeting - Section 127-RPA - Punishment: 6 months or Rs.2000/- or both - Cognizable: Yes - Bailable: Yes \n15. Failure to mention name and address of printer/publisher on pamphlets - Section 127-RPA (A) - Punishment: 6 months or Rs.2000/- or both - Cognizable: No - Bailable: Yes \n16. Violation of secrecy by staff in respect of voting and posters etc. - Section 128-RPA - Punishment: 3 months or fine or both - Cognizable: No - Bailable: Yes \n17. Use of influence by officer on duty at an election for voting - Section 129 (3) RPA - Punishment: 6 months or fine or both - Cognizable: Yes - Bailable: Yes \n18. Canvassing on polling day - Section 130(2) RPA - Punishment: Rs.250/- - Cognizable: Yes - Bailable: Yes \n19. Disorderly conduct in or near polling station - Section 131(2) RPA - Punishment: 3 months or fine or both - Cognizable: No - Bailable: Yes \n20. Misconduct at polling station - Section 132-RPA - Punishment: 3 months or fine or both - Cognizable: Yes - Bailable: Yes \n21. Illegal procuring/hiring of vehicles at an election for transportation of voters - Section 133-RPA - Punishment: 3 months with fine - Cognizable: No - Bailable: Yes \n22. Breach of official duty in connection with election - Section 134-RPA - Punishment: Rs.500/- - Cognizable: Yes - Bailable: Yes \n23. Acting as electing agent, polling agent or counting agent by Govt. Servant - Section 134(A) RPA - Punishment: 3 months or fine or both - Cognizable: No - Bailable: Yes \n24. Prohibition of going armed to or near a polling station - Section 134 (B) RPA - Punishment: 2 years or with fine or both - Cognizable: Yes - Bailable: Yes \n25. Removal of Ballot-papers from polling stations - Section 135 (1) RPA - Punishment: 1 year or Rs.500/- or both - Cognizable: Yes - Bailable: Yes \n26. Booth capturing by a) Govt Servant on duty b) Public - Section 135 (A) RPA - Punishment: (a) 3 year to 5 years with fine. (b) 1 year to 3 year with fine for others - Cognizable: Yes - Bailable: Yes \n27. Liquor not to be sold, given or distributed on polling date - Section 135 (c) RPA - Punishment: 6 months with fine of Rs.2000/- or both - Cognizable: No - Bailable: Yes \n28. Fraudulent act in respect paper, list notice or other document affixed by R.O.; supply/receipt of ballot paper putting any thing except ballot paper into ballot box a) if such act ammoniated by an officer on election duty b) if such act committed by public. - Section 136 (2) RPA - Punishment: (a) 2 years or fine or both (b) 6 months or fine or both - Cognizable: Yes - Bailable: Yes"
+      ]
+    },
+    {
+      "tag": "border_checkpoints",
+      "patterns": [
+        "Border checkpoints",
+        "Border crossings",
+        "Border locations"
+      ],
+      "responses": [
+        "1. Aya Nagar Picket, Aya Nagar Village, Delhi-Gurugram Road\n- Motorable\n- Manned\n- PS F.P. Beri, South District\n- Inspr. Mukesh Kumar Baliyan, SHO/Fatehpur Beri, Contact: 8750870826\n\nOutgoing Border: P.S. DLF Phase-I, District - Gurugram, Inspr. Sunil Kumar, SHO, Contact: 9999981827\nIncoming Border: PS DLF Phase-III, Inspr. Dinkar Yadav, SHO, Contact: 9205892152 \n2. Jheel Khurd, Dera Goan, Delhi-Faridabad Border\n- Motorable\n- Manned\n- PS F.P. Beri, South District\n- Police Post-Manger, PS Dhoj, Inspr. Satyawan, SHO, Contact: 9582200157, District - Faridabad\n- SI Pardeep Kumar, Contact: 9582200180 \n3. Gawal Pahari, Mandi Village, Delhi-Gurugram Border\n- Motorable\n- Manned\n- PS F.P. Beri, South District\n- Police Post- Gawal Phari, PS DLF Phase-I, Gurugram, SI Pardeep Singh, Contact: 99205892151, District - Gurugram"
+      ]
+    },
+    {
+      "tag": "aya_nagar_picket",
+      "patterns": [
+        "Aya Nagar Picket",
+        "Aya Nagar Village",
+        "Delhi-Gurugram Road"
+      ],
+      "responses": [
+        "Motorable, Manned, PS F.P. Beri, South District\nInspr. Mukesh Kumar Baliyan, SHO/Fatehpur Beri\nContact: 8750870826, Outgoing Border: P.S. DLF Phase-I, District - Gurugram\nInspr. Sunil Kumar, SHO\nContact: 9999981827, Incoming Border: PS DLF Phase-III, Gurugram\nInspr. Dinkar Yadav, SHO\nContact: 9205892152"
+      ]
+    },
+    {
+      "tag": "jheel_khurd_dera_goan",
+      "patterns": [
+        "Jheel Khurd, Dera Goan",
+        "Delhi-Faridabad Border",
+        "jheel khurd"
+      ],
+      "responses": [
+        "Motorable, Manned, PS F.P. Beri, South District\nPolice Post-Manger, PS Dhoj, District - Faridabad\nInspr. Satyawan, SHO\nContact: 9582200157, SI Pardeep Kumar\nContact: 9582200180"
+      ]
+    },
+    {
+      "tag": "gawal_pahari_mandi_village",
+      "patterns": ["Gawal Pahari, Mandi Village", "Delhi-Gurugram Border"],
+      "responses": [
+        "Motorable, Manned, PS F.P. Beri, South District\nPolice Post- Gawal Phari, PS DLF Phase-I, Gurugram\nSI Pardeep Singh\nContact: 99205892151"
+      ]
+    },
+    {
+      "tag": "manned_border_checkpoints",
+      "patterns": ["Manned Border Checkpoints", "manned checkpoints"],
+      "responses": [
+        "Manned Border Checkpoints:\n1. Aya Nagar Picket, Aya Nagar Village, Delhi-Gurugram Road\n2. Jheel Khurd, Dera Goan, Delhi-Faridabad Border\n3. Gawal Pahari, Mandi Village, Delhi-Gurugram Border"
+      ]
+    },
+    {
+      "tag": "motorable_border_checkpoints",
+      "patterns": ["Motorable Border Checkpoints", "motorable checkpoints"],
+      "responses": [
+        "Motorable Border Checkpoints:\n1. Aya Nagar Picket, Aya Nagar Village, Delhi-Gurugram Road\n2. Jheel Khurd, Dera Goan, Delhi-Faridabad Border\n3. Gawal Pahari, Mandi Village, Delhi-Gurugram Border"
+      ]
+    },
+    {
+      "tag": "Aya_Nagar_Picket_contact_details",
+      "patterns": [
+        "Aya Nagar Picket contact details",
+        "aya nagar contact details"
+      ],
+      "responses": [
+        "Contact Details for Aya Nagar Picket:\n- Inspr. Mukesh Kumar Baliyan, SHO/Fatehpur Beri\n  Contact: 8750870826\n- Inspr. Sunil Kumar, SHO\n  Contact: 9999981827\n- Inspr. Dinkar Yadav, SHO\n  Contact: 9205892152"
+      ]
+    },
+    {
+      "tag": "Jheel_Khurd_Picket_contact_details",
+      "patterns": [
+        "Jheel Khurd, Dera Goan contact details",
+        "jheel khurd contact details"
+      ],
+      "responses": [
+        "Contact Details for Jheel Khurd, Dera Goan:\n- Inspr. Satyawan, SHO\n  Contact: 9582200157\n- SI Pardeep Kumar\n  Contact: 9582200180"
+      ]
+    },
+    {
+      "tag": "Gawal_Pahari_Picket_contact_details",
+      "patterns": [
+        "Gawal Pahari, Mandi Village contact details",
+        "gawal pahari contact details"
+      ],
+      "responses": [
+        "Contact Details for Gawal Pahari, Mandi Village:\n- SI Pardeep Singh\n  Contact: 99205892151"
+      ]
+    },
+    {
+      "tag": "election_commission_do_1",
+      "patterns": [
+        "ongoing program",
+        "ongoing programmes",
+        "On-going programmes",
+        "Continuation of ongoing programmes",
+        "Can ongoing programmes continue during elections?"
+      ],
+      "responses": [
+        "On-going programmes, which actually started in the field before the announcement of elections may continue."
+      ]
+    },
+    {
+      "tag": "election_commission_do_2",
+      "patterns": [
+        "can relief measures continue?",
+        "rehab measures",
+        "rehabilitation measures",
+        "relief measures",
+        "Relief and rehabilitation measures",
+        "Commencing relief measures during elections",
+        "Can relief measures be started during elections?"
+      ],
+      "responses": [
+        "Relief and rehabilitation measures to the people in areas affected by floods, drought, pestilence, and other natural calamities, can commence and continue."
+      ]
+    },
+    {
+      "tag": "election_commission_do_3",
+      "patterns": [
+        "Grant of cash or medical facilities to terminally or critically ill persons",
+        "Providing assistance to terminally ill during elections",
+        "Can cash or medical assistance be provided during elections?",
+        "medical assistance during elections",
+        "medical aid during elections",
+        "cash grant for medical reasons"
+      ],
+      "responses": [
+        "Grant of cash or medical facilities to terminally or critically ill persons can continue with appropriate approvals."
+      ]
+    },
+    {
+      "tag": "election_commission_do_4",
+      "patterns": [
+        "Availability of public places for election meetings",
+        "Equal access to maidans for election meetings",
+        "Can all parties use public places for meetings?",
+        "useage of public areas for meetings",
+        "public area for meeting",
+        "meeting in public area"
+      ],
+      "responses": [
+        "Public places like maidans are available impartially to all parties/contesting candidates for holding election meetings."
+      ]
+    },
+    {
+      "tag": "election_commission_do_5",
+      "patterns": [
+        "Criticism of other political parties and candidates",
+        "Rules for criticism during elections",
+        "Are there guidelines for criticizing other parties?",
+        "criticism of other parties",
+        "criticism during elections"
+      ],
+      "responses": [
+        "Criticism of other political parties and candidates should relate to their policies, programme, past record and work."
+      ]
+    },
+    {
+      "tag": "election_commission_do_6",
+      "patterns": [
+        "Safeguarding the right to peaceful home life",
+        "Ensuring peaceful home life during elections",
+        "Can individuals have peaceful home life during elections?"
+      ],
+      "responses": [
+        "The right of every individual for peaceful and undisturbed home life should be fully safeguarded."
+      ]
+    },
+    {
+      "tag": "election_commission_do_7",
+      "patterns": [
+        "Informing police about proposed meetings",
+        "Notifying police about election meetings",
+        "Should police be informed about election meetings?"
+      ],
+      "responses": [
+        "The local police authorities should be fully informed of the venue and time of the proposed meetings well in time and all necessary permissions taken."
+      ]
+    },
+    {
+      "tag": "election_commission_do_8",
+      "patterns": [
+        "Respecting restrictive or prohibitory orders",
+        "Adhering to orders during elections",
+        "Should orders be respected during elections?"
+      ],
+      "responses": [
+        "If there are any restrictive or prohibitory orders in force in the place of the proposed meeting, they shall be fully respected. Exemption, if necessary, must be applied for and obtained well in time."
+      ]
+    },
+    {
+      "tag": "election_commission_do_9",
+      "patterns": [
+        "Obtaining permission for loudspeakers",
+        "Using loudspeakers during elections",
+        "Is permission required for loudspeakers during elections?",
+        "can we use loudspeakers during elections",
+        "usage of loudspeakers",
+        "permission for loudspeakers",
+        "i want to use loudspeakers during elections"
+      ],
+      "responses": [
+        "Permission must be obtained for the use of loudspeakers or any other such facilities for the proposed meetings."
+      ]
+    },
+    {
+      "tag": "election_commission_do_10",
+      "patterns": [
+        "Seeking assistance of police in maintaining order",
+        "Seeking police help during elections",
+        "Can police assistance be sought during elections?",
+        "seeking police assistance",
+        "calling police for help"
+      ],
+      "responses": [
+        "The assistance of the police should be obtained in dealing with persons disturbing meetings or otherwise creating disorder."
+      ]
+    },
+    {
+      "tag": "election_commission_do_11",
+      "patterns": [
+        "Planning procession routes in advance",
+        "Deciding procession routes beforehand",
+        "Should procession routes be planned before?",
+        "procession route",
+        "planning procession"
+      ],
+      "responses": [
+        "The time and place of the starting of any procession, the route to be followed and the time and place at which the procession will terminate should be settled in advance and advance permissions obtained from the police authorities."
+      ]
+    },
+    {
+      "tag": "election_commission_do_12",
+      "patterns": [
+        "Ensuring smooth traffic during processions",
+        "Maintaining traffic flow during processions",
+        "Should traffic flow be ensured during processions?"
+      ],
+      "responses": [
+        "The passage of the procession must be without hindrance to traffic."
+      ]
+    },
+    {
+      "tag": "election_commission_do_13",
+      "patterns": [
+        "Extending cooperation to election officials",
+        "Cooperating with election officials",
+        "Is cooperation required with election officials?"
+      ],
+      "responses": [
+        "Cooperation should be extended to all election officials at all times to ensure peaceful and orderly poll."
+      ]
+    },
+    {
+      "tag": "election_commission_do_14",
+      "patterns": [
+        "Displaying badges or identity cards by workers",
+        "Wearing badges during elections",
+        "Should workers wear badges during elections?",
+        "badges during elections",
+        "badge on election duty"
+      ],
+      "responses": ["All Workers must display badges or identity cards."]
+    },
+    {
+      "tag": "election_commission_do_15",
+      "patterns": [
+        "Issuing unofficial identity slips to voters",
+        "Providing identity slips during elections",
+        "Can unofficial identity slips be issued to voters?"
+      ],
+      "responses": [
+        "Unofficial identity slips issued to voters shall be on plain (white) paper and not contain any symbol, name of the candidate or name of the party."
+      ]
+    },
+    {
+      "tag": "election_commission_do_16",
+      "patterns": [
+        "Obeying restrictions on vehicle plying",
+        "Following vehicle restrictions during elections",
+        "Are there restrictions on vehicles during elections?"
+      ],
+      "responses": [
+        "Restrictions on plying of vehicles during the campaign period and on poll day shall be fully obeyed."
+      ]
+    },
+    {
+      "tag": "election_commission_do_17",
+      "patterns": [
+        "Restricting entry to polling booths",
+        "Controlled entry to polling booths",
+        "Who can enter polling booths during elections?",
+        "is there a restriction to entering polling booth during election?",
+        "restriction in entry to polling booth"
+      ],
+      "responses": [
+        "(Except voters, candidates and their election/polling agents), only persons with a specific valid authority letter from the Election Commission can enter any polling booth. No functionary however highly placed (e.g. Chief Minister, Minister, MP or MLA etc) is exempt from this condition."
+      ]
+    },
+    {
+      "tag": "election_commission_do_18",
+      "patterns": [
+        "Reporting complaints to election observers",
+        "Informing election observers about complaints",
+        "How to report election-related complaints?"
+      ],
+      "responses": [
+        "Any complaint or problem regarding the conduct of elections shall be brought to the notice of the observer appointed by the Commission/Returning Officer/Zonal/Sector Magistrate/Election Commission of India."
+      ]
+    },
+    {
+      "tag": "election_commission_do_19",
+      "patterns": [
+        "Obeying directions from Election Commission",
+        "Following instructions from Election Commission",
+        "Should Election Commission instructions be followed?"
+      ],
+      "responses": [
+        "Directions/orders/instructions of the Election Commission, the Returning Officer, and the District Election Officer shall be obeyed in all matters related to various aspects of election."
+      ]
+    },
+    {
+      "tag": "election_commission_do_20",
+      "patterns": [
+        "Leaving constituency after campaign period",
+        "Exiting constituency after elections",
+        "Should non-voters leave the constituency after elections?"
+      ],
+      "responses": [
+        "Do leave the constituency after the campaign period is over if you are not a voter or a candidate or candidate’s election agent from that constituency."
+      ]
+    },
+    {
+      "tag": "election commision dos",
+      "patterns": [
+        "Do's",
+        "Dos",
+        "Election guidelines - Do's",
+        "Code of conduct - Do's"
+      ],
+      "responses": [
+        "DOS: \n- On-going programmes, which actually started in the field before the announcement of elections may continue.\n- Relief and rehabilitation measures to the people in areas affected by floods, drought, pestilence, and other natural calamities, can commence and continue.\n- Grant of cash or medical facilities to terminally or critically ill persons can continue with appropriate approvals.\n- Public places like maidans must be available impartially to all parties/contesting candidates for holding election meetings. So also use of helipads must be available impartially to all parties/contesting candidates, to ensure a level playing field.\n- Criticism of other political parties and candidates should relate to their policies, programme, past record and work.\n- The right of every individual for peaceful and undisturbed home life should be fully safeguarded.\n- The local police authorities should be fully informed of the venue and time of the proposed meetings well in time and all necessary permissions taken.\n- If there are any restrictive or prohibitory orders in force in the place of the proposed meeting, they shall be fully respected. Exemption, if necessary, must be applied for and obtained well in time.\n- Permission must be obtained for the use of loudspeakers or any other such facilities for the proposed meetings.\n- The assistance of the police should be obtained in dealing with persons disturbing meetings or otherwise creating disorder.\n- The time and place of the starting of any procession, the route to be followed and the time and place at which the procession will terminate should be settled in advance and advance permissions obtained from the police authorities.\n- The existence of any restrictive orders in force in the localities through which the procession has to pass should be ascertained and fully complied with. So also all traffic regulations and other restrictions.\n- The passage of the procession must be without hindrance to traffic.\n- Cooperation should be extended to all election officials at all times to ensure peaceful and orderly poll.\n- All Workers must display badges or identity cards.\n- Unofficial identity slips issued to voters shall be on plain (white) paper and not contain any symbol, name of the candidate or name of the party.\n- Restrictions on plying of vehicles during the campaign period and on poll day shall be fully obeyed.\n- (Except voters, candidates and their election/polling agents), only persons with a specific valid authority letter from the Election Commission can enter any polling booth. No functionary however highly placed (e.g. Chief Minister, Minister, MP or MLA etc) is exempt from this condition.\n- Any complaint or problem regarding the conduct of elections shall be brought to the notice of the observer appointed by the Commission/Returning Officer/Zonal/Sector Magistrate/Election Commission of India.\n- Directions/orders/instructions of the Election Commission, the Returning Officer, and the District Election Officer shall be obeyed in all matters related to various aspects of election.\n- Do leave the constituency after the campaign period is over if you are not a voter or a candidate or candidate’s election agent from that constituency."
+      ]
+    },
+    {
+      "tag": "dont_advertisements",
+      "patterns": [
+        "Advertisements regarding achievements of the party/Government",
+        "Are government advertisements allowed for party achievements?",
+        "Are advertisements about government achievements permitted?",
+        "Government achievements advertisement",
+        "govt advertisements in election"
+      ],
+      "responses": [
+        "No advertisements at the cost of the public exchequer regarding achievements of the party/Government in power is permitted."
+      ]
+    },
+    {
+      "tag": "dont_ministers_polling_station",
+      "patterns": [
+        "Ministers entering polling stations or places of counting",
+        "Can ministers enter polling stations?",
+        "Are ministers allowed inside polling stations?",
+        "minister entering polling station",
+        "minister inside polling station"
+      ],
+      "responses": [
+        "No Minister shall enter any polling station or the place of counting, unless he or she is a candidate or as a voter only for voting."
+      ]
+    },
+    {
+      "tag": "dont_mix_official_campaigning",
+      "patterns": [
+        "Mixing official work with campaigning/electioneering",
+        "Can official work be mixed with campaigning?",
+        "Is campaigning allowed during official work hours?",
+        "official work with campaign",
+        "camaign during official work"
+      ],
+      "responses": [
+        "Official work should not at all be mixed with campaigning/electioneering."
+      ]
+    },
+    {
+      "tag": "dont_offer_inducements",
+      "patterns": [
+        "Offering inducements to voters",
+        "Can inducements be offered to voters?",
+        "Are financial inducements to voters allowed?",
+        "inducements given to voters",
+        "inducements to voters"
+      ],
+      "responses": [
+        "No inducement, financial or otherwise, shall be offered to the voter."
+      ]
+    },
+    {
+      "tag": "dont_appeal_caste_communal",
+      "patterns": [
+        "Appealing to caste/communal feelings of electors",
+        "Is appealing to caste/communal feelings allowed?",
+        "Can candidates appeal to caste/communal feelings?",
+        "appeal to caste feeling",
+        "appeal to cast",
+        "appeal to communal feeling",
+        "appeal to caste sentiment",
+        "appeal to communal sentiment"
+      ],
+      "responses": [
+        "Caste/communal feelings of the electors shall not be appealed to."
+      ]
+    },
+    {
+      "tag": "dont_aggravate_differences",
+      "patterns": [
+        "Aggravating existing differences between groups",
+        "Can activities aggravate differences between groups?",
+        "Is it allowed to cause tension between different groups?",
+        "tension between social groups"
+      ],
+      "responses": [
+        "No activity, which may aggravate existing differences or create mutual hatred or cause tension between different castes, communities or religious or linguistic groups shall be attempted."
+      ]
+    },
+    {
+      "tag": "election commision donts",
+      "patterns": [
+        "Don'ts",
+        "Donts",
+        "Election guidelines - Don'ts",
+        "Code of conduct - Don'ts"
+      ],
+      "responses": [
+        "DONTs: \n(1) Any and all advertisements at the cost of the public exchequer regarding achievements of the party/Government in power is prohibited.\n(2) No Minister shall enter any polling station or the place of counting, unless he or she is a candidate or as a voter only for voting.\n(3) Official work should not at all be mixed with campaigning/electioneering.\n(4) No inducement, financial or otherwise, shall be offered to the voter.\n(5) Caste/communal feelings of the electors shall not be appealed to.\n(6) No activity, which may aggravate existing differences or create mutual hatred or cause tension between different castes, communities or religious or linguistic groups shall be attempted.\n(7) No aspect of the private life, not connected with the public activities, of the leaders or workers of other parties shall be permitted to be criticized.\n(8) Other parties or their workers shall not be criticized based on unverified allegations or on distortions.\n(9) Temples, Mosques, Churches, Gurudwaras or any place of worship shall not be used as places for election propaganda, including speeches, posters, music etc., on electioneering.\n(10) Activities which are corrupt practices or electoral offences such as bribery, undue influence, intimidation of voters, personation, canvassing within 100 meters of a polling station, holding of public meetings during the period of 48 hours ending with the hour fixed for the close of the poll and conveyance of voters to and from polling stations are prohibited.\n(11) Demonstrations or picketing before the houses of individuals by way of protesting against their opinion or activities shall not be resorted to.\n(12) Subject to the local laws, no one can make use of any individual's land, building, compound wall, vehicles etc. for erecting flag staffs, putting up banners, pasting notices or writing slogans etc. without specific permission of the owner (to be shown to and deposited with the District Election Officer).\n(13) No disturbances shall be created in public meetings or processions organized by other political parties or candidates.\n(14) Processions along places at which another party is holding meetings shall not be undertaken.\n(15) Processionists shall not carry any articles, which are capable of being misused as missiles or weapons.\n(16) Posters issued by other parties and candidates shall not be removed or defaced.\n(17) Posters, flags, symbols or any other propaganda material shall not be displayed in the place being used on the day of poll for distribution of identity slips or near polling booths.\n(18) Loudspeakers whether static or mounted on moving vehicles shall not be used either before 6 a.m. or after 10a.m. and without the prior written permission of the authorities concerned.\n(19) Loudspeakers shall also not be used at public meetings and processions without the prior written permission of the authorities concerned. Normally, such meetings/processions will not be allowed to continue beyond 10.00 p.m. in the night and will be further subject to the local laws, local perceptions of the security arrangements of the area and other relevant considerations like weather conditions, festival season, examination period, etc.\n(20) No liquor should be distributed during elections.\n(21) On the day of the poll, no person who has been assessed to be having a security threat and therefore given official security shall enter the vicinity of a polling station premise (within 100 meters) with his security personnel. Further, on the day of the poll no such person shall move around in a constituency with his security personnel. If the person provided with official security happens to be a voter also, then he or she shall restrict his / her movement - accompanied by security personnel, to voting only.\n(22) No person who has been assessed to be having a security threat and therefore provided official security or who has private security guards for himself, shall be appointed as an election agent or polling agent or counting agent."
+      ]
+    },
+    {
+      "tag": "election commision dos and donts",
+      "patterns": [
+        "Do's and Don'ts of election commision",
+        "do's and don'ts",
+        "dos and donts",
+        "code of conduct - Do's and Don'ts",
+        "Election Guidelines - Do's and Don'ts"
+      ],
+      "responses": [
+        "DOS: \n- On-going programmes, which actually started in the field before the announcement of elections may continue. \n- Relief and rehabilitation measures to the people in areas affected by floods, drought, pestilence, and other natural calamities, can commence and continue.\n- Grant of cash or medical facilities to terminally or critically ill persons can continue with appropriate approvals.\n- Public places like maidans must be available impartially to all parties/contesting candidates for holding election meetings. So also use of helipads must be available impartially to all parties/contesting candidates, to ensure a level playing field.\n- Criticism of other political parties and candidates should relate to their policies, programme, past record and work.\n- The right of every individual for peaceful and undisturbed home life should be fully safeguarded.\n- The local police authorities should be fully informed of the venue and time of the proposed meetings well in time and all necessary permissions taken.\n- If there are any restrictive or prohibitory orders in force in the place of the proposed meeting, they shall be fully respected. Exemption, if necessary, must be applied for and obtained well in time.\n- Permission must be obtained for the use of loudspeakers or any other such facilities for the proposed meetings.\n- The assistance of the police should be obtained in dealing with persons disturbing meetings or otherwise creating disorder.\n- The time and place of the starting of any procession, the route to be followed and the time and place at which the procession will terminate should be settled in advance and advance permissions obtained from the police authorities.\n- The existence of any restrictive orders in force in the localities through which the procession has to pass should be ascertained and fully complied with. So also all traffic regulations and other restrictions.\n- The passage of the procession must be without hindrance to traffic.\n- Cooperation should be extended to all election officials at all times to ensure peaceful and orderly poll.\n- All Workers must display badges or identity cards.\n- Unofficial identity slips issued to voters shall be on plain (white) paper and not contain any symbol, name of the candidate or name of the party.\n- Restrictions on plying of vehicles during the campaign period and on poll day shall be fully obeyed.\n- (Except voters, candidates and their election/polling agents), only persons with a specific valid authority letter from the Election Commission can enter any polling booth. No functionary however highly placed (e.g. Chief Minister, Minister, MP or MLA etc) is exempt from this condition.\n- Any complaint or problem regarding the conduct of elections shall be brought to the notice of the observer appointed by the Commission/Returning Officer/Zonal/Sector Magistrate/Election Commission of India.\n- Directions/orders/instructions of the Election Commission, the Returning Officer, and the District Election Officer shall be obeyed in all matters related to various aspects of election.\n- Do leave the constituency after the campaign period is over if you are not a voter or a candidate or candidate’s election agent from that constituency.\n \nDONTs: \n(1) Any and all advertisements at the cost of the public exchequer regarding achievements of the party/Government in power is prohibited.\n(2) No Minister shall enter any polling station or the place of counting, unless he or she is a candidate or as a voter only for voting.\n(3) Official work should not at all be mixed with campaigning/electioneering.\n(4) No inducement, financial or otherwise, shall be offered to the voter.\n(5) Caste/communal feelings of the electors shall not be appealed to.\n(6) No activity, which may aggravate existing differences or create mutual hatred or cause tension between different castes, communities or religious or linguistic groups shall be attempted.\n(7) No aspect of the private life, not connected with the public activities, of the leaders or workers of other parties shall be permitted to be criticized.\n(8) Other parties or their workers shall not be criticized based on unverified allegations or on distortions.\n(9) Temples, Mosques, Churches, Gurudwaras or any place of worship shall not be used as places for election propaganda, including speeches, posters, music etc., on electioneering.\n(10) Activities which are corrupt practices or electoral offences such as bribery, undue influence, intimidation of voters, personation, canvassing within 100 meters of a polling station, holding of public meetings during the period of 48 hours ending with the hour fixed for the close of the poll and conveyance of voters to and from polling stations are prohibited.\n(11) Demonstrations or picketing before the houses of individuals by way of protesting against their opinion or activities shall not be resorted to.\n(12) Subject to the local laws, no one can make use of any individual's land, building, compound wall, vehicles etc. for erecting flag staffs, putting up banners, pasting notices or writing slogans etc. without specific permission of the owner (to be shown to and deposited with the District Election Officer).\n(13) No disturbances shall be created in public meetings or processions organized by other political parties or candidates.\n(14) Processions along places at which another party is holding meetings shall not be undertaken.\n(15) Processionists shall not carry any articles, which are capable of being misused as missiles or weapons.\n(16) Posters issued by other parties and candidates shall not be removed or defaced.\n(17) Posters, flags, symbols or any other propaganda material shall not be displayed in the place being used on the day of poll for distribution of identity slips or near polling booths.\n(18) Loudspeakers whether static or mounted on moving vehicles shall not be used either before 6 a.m. or after 10a.m. and without the prior written permission of the authorities concerned.\n(19) Loudspeakers shall also not be used at public meetings and processions without the prior written permission of the authorities concerned. Normally, such meetings/processions will not be allowed to continue beyond 10.00 p.m. in the night and will be further subject to the local laws, local perceptions of the security arrangements of the area and other relevant considerations like weather conditions, festival season, examination period, etc.\n(20) No liquor should be distributed during elections.\n(21) On the day of the poll, no person who has been assessed to be having a security threat and therefore given official security shall enter the vicinity of a polling station premise (within 100 meters) with his security personnel. Further, on the day of the poll no such person shall move around in a constituency with his security personnel. If the person provided with official security happens to be a voter also, then he or she shall restrict his / her movement - accompanied by security personnel, to voting only.\n(22) No person who has been assessed to be having a security threat and therefore provided official security or who has private security guards for himself, shall be appointed as an election agent or polling agent or counting agent."
+      ]
+    },
+    {
+      "tag": "The police station wise detail of Parliamentary Constituencies, Assembly Constituencies falling within the jurisdiction of South District Police ",
+      "patterns": [
+        "What are the Assembly Constituencies falling within the jurisdiction of South District Police?",
+        "Assembly Constituencies falling within the jurisdiction of South District Police",
+        "What are the police station wise detail parliamentary constituencies?",
+        "the police station wise detail of parliamentary constituencies"
+      ],
+      "responses": [
+        "New Delhi n Parliamentary Constituency-04n -Ac No.-40 \nAc Name- New Delhi n Police Station Area- Hauz Khas Lodhi Colonyn -Ac No.-42\n AC name KASTURBA NAGAR Police Station Area HAUZ KHAS DEFENCE COLONY LODHI COLONY K.M.PUR \n -AC No.- 43 \n AC Name- MALVIYA NAGAR \n Police Station Area - HAUZ KHAS MALVIYA NAGAR \n -AC No.- 50 \n AC NAme - GREATER KAILASH \n Police Station Area- HAUZ KHAS MALVIYA NAGAR C.R. PARK GREATER KAILASH"
+      ]
+    },
+    {
+      "tag": "south_district_police_assembly_constituencies",
+      "patterns": [
+        "assembly constituencies",
+        "assembly constituencies south district",
+        "Assembly Constituencies within South District Police jurisdiction",
+        "Which Assembly Constituencies fall under South District Police?",
+        "What are the Assembly Constituencies in South District Police jurisdiction?",
+        "South District Police Assembly Constituencies"
+      ],
+      "responses": [
+        "New Delhi n Parliamentary Constituency-04n -Ac No.-40\nAc Name- New Delhi\nPolice Station Area- Hauz Khas, Lodhi Colony\n-Ac No.-42\nAC Name KASTURBA NAGAR\nPolice Station Area HAUZ KHAS, DEFENCE COLONY, LODHI COLONY, K.M.PUR\n-AC No.- 43\nAC Name- MALVIYA NAGAR\nPolice Station Area- HAUZ KHAS, MALVIYA NAGAR\n-AC No.- 50\nAC Name- GREATER KAILASH\nPolice Station Area- HAUZ KHAS, MALVIYA NAGAR, C.R. PARK, GREATER KAILASH"
+      ]
+    },
+    {
+      "tag": "south_district_police_parliamentary_constituencies",
+      "patterns": [
+        "Parliamentary Constituencies within South District Police jurisdiction",
+        "Which Parliamentary Constituencies fall under South District Police?",
+        "What are the Parliamentary Constituencies in South District Police jurisdiction?",
+        "South District Police Parliamentary Constituencies"
+      ],
+      "responses": [
+        "New Delhi n Parliamentary Constituency-04n -Ac No.-40\nAc Name- New Delhi"
+      ]
+    },
+    {
+      "tag": "district control room south district",
+      "patterns": [
+        "contact details for district control room south district",
+        "south district control room details",
+        "contact for south district control room"
+      ],
+      "responses": [
+        "CONTACT DETAILS FOR CONTROL ROOM SOUTH DISTRICT : \n011-26523967\n011-26528994"
+      ]
+    },
+    {
+      "tag": "central police control room",
+      "patterns": [
+        "contact for central police room",
+        "central police room contact",
+        "central police control room contact details",
+        "what is the number for central police control room",
+        "central room delhi police contact details"
+      ],
+      "responses": ["CENTRAL POLICE CONTROL ROOM - 112"]
+    },
+    {
+      "tag": "DCP/SD",
+      "patterns": [
+        "DCP of south district",
+        "Contact details for DCP south district",
+        "Who is DCP of south district?"
+      ],
+      "responses": [
+        "Sh. Ankit Chauhan\n- Call Sign: Siera-1\n- Phone No.: 9818099047, 26857726, 26858366\n- Email: dcp.south@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "Ankit_Chauhan",
+      "patterns": [
+        "Ankit Chauhan",
+        "DCP Ankit Chauhan",
+        "Contact details for Ankit Chauhan"
+      ],
+      "responses": [
+        "Sh. Ankit Chauhan\n- Call Sign: Siera-1\n- Phone No.: 9818099047, 26857726, 26858366\n- Email: dcp.south@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "Achin_Garg",
+      "patterns": [
+        "Achin Garg",
+        "Additional DCP-I Achin Garg",
+        "Contact details for Achin Garg"
+      ],
+      "responses": [
+        "Sh. Achin Garg\n- Call Sign: Siera-2\n- Phone No.: 9818099067, 26852095, 26866162\n- Email: adcp1.south@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "Ashok_Kumar",
+      "patterns": [
+        "Ashok Kumar",
+        "Additional DCP-II Ashok Kumar",
+        "Contact details for Ashok Kumar"
+      ],
+      "responses": [
+        "Sh. Ashok Kumar\n- Call Sign: Siera-3\n- Phone No.: 8750870803, 9582036629, 26865965, 26526530\n- Email: adcp2.south@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "Additional_DCP-I",
+      "patterns": [
+        "Additional DCP-I",
+        "contact details for Additional DCP-I",
+        "who is Additional DCP-I?"
+      ],
+      "responses": [
+        "Sh. Achin Garg\n- Call Sign: Siera-2\n- Phone No.: 9818099067, 26852095, 26866162\n- Email: adcp1.south@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "Additional_DCP-II",
+      "patterns": [
+        "Additional DCP-II",
+        "contact details for Additional DCP-II",
+        "who is Additional DCP-II?"
+      ],
+      "responses": [
+        "Sh. Ashok Kumar\n- Call Sign: Siera-3\n- Phone No.: 8750870803, 9582036629, 26865965, 26526530\n- Email: adcp2.south@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "Harish_Chandler_ACP_Hauz_Khas",
+      "patterns": [
+        "Harish Chander contact details",
+        "Contact details for ACP Hauz Khas",
+        "Who is the ACP of Hauz Khas?"
+      ],
+      "responses": [
+        "Sh. Harish Chander\n- Place of Posting: ACP/Hauz Khas\n- Call Sign: Siera-4\n- Phone No.: 8750870804, 9868858722\n- Email: acp-hauzkhas-dl@nic.in"
+      ]
+    },
+    {
+      "tag": "Vijay_Kumar_ACP_Mehrauli",
+      "patterns": [
+        "Vijay Kumar contact details",
+        "Contact details for ACP Mehrauli",
+        "Who is the ACP of Mehrauli?"
+      ],
+      "responses": [
+        "Sh. Vijay Kumar\n- Place of Posting: ACP/Mehrauli\n- Call Sign: Siera-5\n- Phone No.: 26644203, 8750870805, 9818270338\n- Email: acp-mehrauli-dl.nic.in"
+      ]
+    },
+    {
+      "tag": "Rajendra_Singh_ACP_Defence_Colony",
+      "patterns": [
+        "Rajendra Singh contact details",
+        "Contact details for ACP Defence Colony",
+        "Who is the ACP of Defence Colony?"
+      ],
+      "responses": [
+        "Sh. Rajendra Singh\n- Place of Posting: ACP/Defence Colony\n- Call Sign: Siera-6\n- Phone No.: 26258486, 8750870806, 9811082660\n- Email: acp-defencecolony-dl.nic.in"
+      ]
+    },
+    {
+      "tag": "Abhinendra_Jain_ACP_HQ",
+      "patterns": [
+        "Abhinendra Jain contact details",
+        "Contact details for ACP HQ",
+        "Who is the ACP of HQ?"
+      ],
+      "responses": [
+        "Sh. Abhinendra Jain\n- Place of Posting: ACP/HQ\n- Call Sign: Siera-09\n- Phone No.: 9911122383\n- Nodal Officer for Election Cell/South District"
+      ]
+    },
+    {
+      "tag": "Rajesh_Kumar_ACP_Ops_Cell_SD",
+      "patterns": [
+        "Rajesh Kumar contact details",
+        "Contact details for ACP Ops Cell SD",
+        "Who is the ACP of Ops Cell SD?"
+      ],
+      "responses": [
+        "Sh. Rajesh Kumar\n- Place of Posting: ACP/Ops Cell/SD\n- Call Sign: Siera-10\n- Phone No.: 8448301558"
+      ]
+    },
+    {
+      "tag": "Amreek_Raj_Birdi_ACP_PG_Cell_DIU_SD",
+      "patterns": [
+        "Amreek Raj Birdi contact details",
+        "Contact details for ACP PG Cell DIU SD",
+        "Who is the ACP of PG Cell DIU SD?"
+      ],
+      "responses": [
+        "Sh. Amreek Raj Birdi\n- Place of Posting: ACP/P.G. Cell/SD & ACP/DIU (SD)\n- Call Sign: Siera-12 & 14\n- Phone No.: 9868167557, 26692492\n- Nodal Officer for Single Window Permission"
+      ]
+    },
+    {
+      "tag": "Neeraj_Tokas_ACP_CR_Park",
+      "patterns": [
+        "Neeraj Tokas contact details",
+        "Contact details for ACP C.R. Park",
+        "Who is the ACP of C.R. Park?"
+      ],
+      "responses": [
+        "Ms. Neeraj Tokas\n- Place of Posting: ACP/C.R. Park\n- Call Sign: Siera-7\n- Phone No.: 8750870807, 9811600811"
+      ]
+    },
+    {
+      "tag": "KM_Priyanka_ACP_Sangam_Vihar",
+      "patterns": [
+        "KM Priyanka contact details",
+        "Contact details for ACP Sangam Vihar",
+        "Who is the ACP of Sangam Vihar?"
+      ],
+      "responses": [
+        "Ms. K.M. Priyanka, IPS\n- Place of Posting: ACP/Sangam Vihar\n- Call Sign: Siera-8\n- Phone No.: 26041471, 8750870808, 9742533911\n- Email: acp-sangamvhr-dl@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "Mukesh_Balyan_SHO_Fatehpur_Beri",
+      "patterns": [
+        "Mukesh Balyan contact details",
+        "Contact details for SHO Fatehpur Beri",
+        "Who is the SHO of Fatehpur Beri?"
+      ],
+      "responses": [
+        "Inspr. Mukesh Balyan\n- Place of Posting: SHO/Fatehpur Beri\n- Call Sign: Siera-26\n- Phone No.: 8750870826, 26659611, 26659511"
+      ]
+    },
+    {
+      "tag": "Sanjeev_Mandal_SHO_Lodhi_Colony",
+      "patterns": [
+        "Sanjeev Mandal contact details",
+        "Contact details for SHO Lodhi Colony",
+        "Who is the SHO of Lodhi Colony?"
+      ],
+      "responses": [
+        "Inspr. Sanjeev Mandal\n- Place of Posting: SHO/Lodhi Colony\n- Call Sign: Siera-29\n- Phone No.: 8750870829, 24620283, 24611753"
+      ]
+    },
+    {
+      "tag": "Arun_Kumar_Verma_SHO_Cyber",
+      "patterns": [
+        "Arun Kumar Verma contact details",
+        "Contact details for SHO Cyber",
+        "Who is the SHO of Cyber?"
+      ],
+      "responses": [
+        "Inspr. Sh. Arun Kumar Verma\n- Place of Posting: SHO/Cyber\n- Call Sign: Siera-36\n- Phone No.: 9871698330"
+      ]
+    },
+    {
+      "tag": "ACP_Hauz_Khas",
+      "patterns": [
+        "Contact details for ACP Hauz Khas",
+        "Who is the ACP of Hauz Khas?",
+        "ACP Hauz Khas contact information"
+      ],
+      "responses": [
+        "Sh. Harish Chander\n- Place of Posting: ACP/Hauz Khas\n- Call Sign: Siera-4\n- Phone No.: 8750870804, 9868858722\n- Email: acp-hauzkhas-dl@nic"
+      ]
+    },
+    {
+      "tag": "ACP_Mehrauli",
+      "patterns": [
+        "Contact details for ACP Mehrauli",
+        "Who is the ACP of Mehrauli?",
+        "ACP Mehrauli contact information"
+      ],
+      "responses": [
+        "Sh. Vijay Kumar\n- Place of Posting: ACP/Mehrauli\n- Call Sign: Siera-5\n- Phone No.: 26644203, 8750870805, 9818270338\n- Email: acp-mehrauli-dl.nic.in"
+      ]
+    },
+    {
+      "tag": "ACP_Mehrauli",
+      "patterns": [
+        "Contact details for ACP Mehrauli",
+        "Who is the ACP of Mehrauli?",
+        "ACP Mehrauli contact information"
+      ],
+      "responses": [
+        "Sh. Vijay Kumar\n- Place of Posting: ACP/Mehrauli\n- Call Sign: Siera-5\n- Phone No.: 26644203, 8750870805, 9818270338\n- Email: acp-mehrauli-dl.nic.in"
+      ]
+    },
+    {
+      "tag": "ACP_CR_Park",
+      "patterns": [
+        "Contact details for ACP C.R. Park",
+        "Who is the ACP of C.R. Park?",
+        "ACP C.R. Park contact information"
+      ],
+      "responses": [
+        "Ms. Neeraj Tokas\n- Place of Posting: ACP/C.R. Park\n- Call Sign: Siera-7\n- Phone No.: 8750870807, 9811600811"
+      ]
+    },
+    {
+      "tag": "ACP_Sangam_Vihar",
+      "patterns": [
+        "Contact details for ACP Sangam Vihar",
+        "Who is the ACP of Sangam Vihar?",
+        "ACP Sangam Vihar contact information"
+      ],
+      "responses": [
+        "Ms. K.M. Priyanka, IPS\n- Place of Posting: ACP/Sangam Vihar\n- Call Sign: Siera-8\n- Phone No.: 26041471, 8750870808, 9742533911\n- Email: acp-sangamvhr-dl@delhipolice.gov.in"
+      ]
+    },
+    {
+      "tag": "ACP_HQ",
+      "patterns": [
+        "Contact details for ACP HQ",
+        "Who is the ACP of HQ?",
+        "ACP HQ contact information"
+      ],
+      "responses": [
+        "Sh. Abhinendra Jain\n- Place of Posting: ACP/HQ\n- Call Sign: Siera-09\n- Phone No.: 9911122383\n- Designation: Nodal Officer for Election Cell/South District"
+      ]
+    },
+    {
+      "tag": "ACP_Ops_Cell_SD",
+      "patterns": [
+        "Contact details for ACP Ops Cell SD",
+        "Who is the ACP of Ops Cell SD?",
+        "ACP Ops Cell SD contact information"
+      ],
+      "responses": [
+        "Sh. Rajesh Kumar\n- Place of Posting: ACP/Ops Cell/SD\n- Call Sign: Siera-10\n- Phone No.: 8448301558"
+      ]
+    },
+    {
+      "tag": "ACP_PG_Cell_DIU_SD",
+      "patterns": [
+        "Contact details for ACP P.G. Cell SD",
+        "Who is the ACP of P.G. Cell SD?",
+        "ACP P.G. Cell SD contact information"
+      ],
+      "responses": [
+        "Sh. Amreek Raj Birdi\n- Place of Posting: ACP/P.G. Cell/SD & ACP/DIU (SD)\n- Call Sign: Siera-12 & 14\n- Phone No.: 9868167557\n- Designation: Nodal Officer for Single Window Permission"
+      ]
+    },
+    {
+      "tag": "Inspector_Shiv_Darshan_SHO_Hauz_Khas",
+      "patterns": [
+        "Contact details for Inspector Shiv Darshan SHO Hauz Khas",
+        "Who is the SHO of Hauz Khas?"
+      ],
+      "responses": [
+        "Inspector Shiv Darshan\n- Place of Posting: SHO/Hauz Khas\n- Call Sign: Siera-21\n- Mobile No.: 8750870821\n- Landline: 26510077, 26867878"
+      ]
+    },
+    {
+      "tag": "Inspector_Bharat_Lal_ATO_Hauz_Khas",
+      "patterns": [
+        "Contact details for Inspector Bharat Lal ATO Hauz Khas",
+        "Who is the ATO of Hauz Khas?"
+      ],
+      "responses": [
+        "Inspector Bharat Lal\n- Place of Posting: ATO/Hauz Khas\n- Call Sign: Siera-21A\n- Mobile No.: 8750044787"
+      ]
+    },
+    {
+      "tag": "Inspector_Pushpendra_Kumar_Inv_Hauz_Khas",
+      "patterns": [
+        "Contact details for Inspector Pushpendra Kumar Investigation Hauz Khas",
+        "Who is the Investigating Officer of Hauz Khas?"
+      ],
+      "responses": [
+        "Inspector Pushpendra Kumar\n- Place of Posting: Inspr. (Inv.) Hauz Khas\n- Call Sign: Siera-21B\n- Mobile No.: 9654821161"
+      ]
+    },
+    {
+      "tag": "Inspector_Deepak_Kumar_SHO_Malviya_Nagar",
+      "patterns": [
+        "Contact details for Inspector Deepak Kumar SHO Malviya Nagar",
+        "Who is the SHO of Malviya Nagar?"
+      ],
+      "responses": [
+        "Inspector Deepak Kumar\n- Place of Posting: SHO/Malviya Nagar\n- Call Sign: Siera-22\n- Mobile No.: 8750870822\n- Landline: 26691861, 26691863"
+      ]
+    },
+    {
+      "tag": "Inspector_Rajeev_ATO_Malviya_Nagar",
+      "patterns": [
+        "Contact details for Inspector Rajeev ATO Malviya Nagar",
+        "Who is the ATO of Malviya Nagar?"
+      ],
+      "responses": [
+        "Inspector Rajeev\n- Place of Posting: ATO/Malviya Nagar\n- Call Sign: Siera-22A\n- Mobile No.: 9718275001"
+      ]
+    },
+    {
+      "tag": "Inspector_Subhash_Chand_Inv_Malviya_Nagar",
+      "patterns": [
+        "Contact details for Inspector Subhash Chand Investigation Malviya Nagar",
+        "Who is the Investigating Officer of Malviya Nagar?"
+      ],
+      "responses": [
+        "Inspector Subhash Chand\n- Place of Posting: Inspr. (Inv.) Malviya Nagar\n- Call Sign: Siera-22B"
+      ]
+    },
+    {
+      "tag": "Inspector_Subodh_Kumar_SHO_Saket",
+      "patterns": [
+        "Contact details for Inspector Subodh Kumar SHO Saket",
+        "Who is the SHO of Saket?"
+      ],
+      "responses": [
+        "Inspector Subodh Kumar\n- Place of Posting: SHO/Saket\n- Call Sign: Siera-23\n- Mobile No.: 8750870823\n- Landline: 29561300, 29562300"
+      ]
+    },
+    {
+      "tag": "Inspector_Hansraj_Swami_Inv_Saket",
+      "patterns": [
+        "Contact details for Inspector Hansraj Swami Investigation Saket",
+        "Who is the Investigating Officer of Saket?"
+      ],
+      "responses": [
+        "Inspector Hansraj Swami\n- Place of Posting: Inspr. (Inv.) Saket\n- Call Sign: Siera-23B\n- Note: Not reported"
+      ]
+    },
+    {
+      "tag": "Inspector_Akhilesh_Bajpai_SHO_Mehrauli",
+      "patterns": [
+        "Contact details for Inspector Akhilesh Bajpai SHO Mehrauli",
+        "Who is the SHO of Mehrauli?"
+      ],
+      "responses": [
+        "Inspector Akhilesh Bajpai\n- Place of Posting: SHO/Mehrauli\n- Call Sign: Siera-24\n- Mobile No.: 8750870824\n- Landline: 26645050, 26643200"
+      ]
+    },
+    {
+      "tag": "Inspector_Anurag_Singh_ATO_Mehrauli",
+      "patterns": [
+        "Contact details for Inspector Anurag Singh ATO Mehrauli",
+        "Who is the ATO of Mehrauli?"
+      ],
+      "responses": [
+        "Inspector Anurag Singh\n- Place of Posting: ATO/Mehrauli\n- Call Sign: Siera-24A\n- Mobile No.: 9013492914"
+      ]
+    },
+    {
+      "tag": "Inspector_Binod_Kumar_Inv_Mehrauli",
+      "patterns": [
+        "Contact details for Inspector Binod Kumar Investigation Mehrauli",
+        "Who is the Investigating Officer of Mehrauli?"
+      ],
+      "responses": [
+        "Inspector Binod Kumar\n- Place of Posting: Inspr. (Inv.) Mehrauli\n- Call Sign: Siera-24B\n- Note: Not reported"
+      ]
+    },
+    {
+      "tag": "Inspector_Sanjay_Neolia_SHO_Maidan_Garhi",
+      "patterns": [
+        "Contact details for Inspector Sanjay Neolia SHO Maidan Garhi",
+        "Who is the SHO of Maidan Garhi?"
+      ],
+      "responses": [
+        "Inspector Sanjay Neolia\n- Place of Posting: SHO/Maidan Garhi\n- Call Sign: Siera-25\n- Mobile No.: 8750870825\n- Landline: 26653614, 26653615"
+      ]
+    },
+    {
+      "tag": "Inspector_Vacant_Inv_Maidan_Garhi",
+      "patterns": [
+        "Contact details for Investigating Officer of Maidan Garhi",
+        "Who is the Investigating Officer of Maidan Garhi?"
+      ],
+      "responses": [
+        "Vacant\n- Place of Posting: Inspr. (Inv.) Maidan Garhi\n- Call Sign: Siera-25B\n- Mobile No.: 9911820101"
+      ]
+    },
+    {
+      "tag": "Inspector_Mukesh_Balyan_SHO_Fatehpur_Beri",
+      "patterns": [
+        "Contact details for Inspector Mukesh Balyan SHO Fatehpur Beri",
+        "Who is the SHO of Fatehpur Beri?"
+      ],
+      "responses": [
+        "Inspector Mukesh Balyan\n- Place of Posting: SHO/Fatehpur Beri\n- Call Sign: Siera-26\n- Mobile No.: 8750870826\n- Landline: 26659611, 26659511"
+      ]
+    },
+    {
+      "tag": "Inspector_Aditiya_ATO_Fatehpur_Beri",
+      "patterns": [
+        "Contact details for Inspector Aditiya ATO Fatehpur Beri",
+        "Who is the ATO of Fatehpur Beri?"
+      ],
+      "responses": [
+        "Inspector Aditiya\n- Place of Posting: ATO/Fatehpur Beri\n- Call Sign: Siera-26A\n- Mobile No.: 9891719801"
+      ]
+    },
+    {
+      "tag": "Inspector_Rishi_Kesh_Inv_Fatehpur_Beri",
+      "patterns": [
+        "Contact details for Inspector Rishi Kesh Investigating Officer Fatehpur Beri",
+        "Who is the Investigating Officer of Fatehpur Beri?"
+      ],
+      "responses": [
+        "Inspector Rishi Kesh\n- Place of Posting: Inspr. (Inv.) Fatehpur Beri\n- Mobile No.: Not Reported"
+      ]
+    },
+    {
+      "tag": "Inspector_Chander_Shekhar_SHO_Defence_Colony",
+      "patterns": [
+        "Contact details for Inspector Chander Shekhar SHO Defence Colony",
+        "Who is the SHO of Defence Colony?"
+      ],
+      "responses": [
+        "Inspector Chander Shekhar\n- Place of Posting: SHO/Defence Colony\n- Call Sign: Siera-27\n- Mobile No.: 8750870827, 9868902244\n- Landline: 26253402"
+      ]
+    },
+    {
+      "tag": "Inspector_Harpal_Singh_ATO_Defence_Colony",
+      "patterns": [
+        "Contact details for Inspector Harpal Singh ATO Defence Colony",
+        "Who is the ATO of Defence Colony?"
+      ],
+      "responses": [
+        "Inspector Harpal Singh\n- Place of Posting: ATO/Defence Colony\n- Call Sign: Siera-27A\n- Mobile No.: Not Reported"
+      ]
+    },
+    {
+      "tag": "Inspector_Devendra_Kumar_Inv_Defence_Colony",
+      "patterns": [
+        "Contact details for Inspector Devendra Kumar Investigating Officer Defence Colony",
+        "Who is the Investigating Officer of Defence Colony?"
+      ],
+      "responses": [
+        "Inspector Devendra Kumar\n- Place of Posting: Inspr. (Inv.) Defence Colony\n- Mobile No.: Not Reported"
+      ]
+    },
+    {
+      "tag": "Inspector_Parveen_Kumar_SHO_Kotlamubarak_Pur",
+      "patterns": [
+        "Contact details for Inspector Parveen Kumar SHO Kotlamubarak Pur",
+        "Who is the SHO of Kotlamubarak Pur?"
+      ],
+      "responses": [
+        "Inspector Parveen Kumar\n- Place of Posting: SHO/Kotlamubarak Pur\n- Call Sign: Siera-28\n- Mobile No.: 8750870828, 9810779471\n- Landline: 24624825, 24620106"
+      ]
+    },
+    {
+      "tag": "Inspector_Narendra_Singh_ATO_Kotlamubarak_Pur",
+      "patterns": [
+        "Contact details for Inspector Narendra Singh ATO Kotlamubarak Pur",
+        "Who is the ATO of Kotlamubarak Pur?"
+      ],
+      "responses": [
+        "Inspector Narendra Singh\n- Place of Posting: ATO/Kotlamubarak Pur\n- Call Sign: Siera-28A\n- Mobile No.: 9999553628"
+      ]
+    },
+    {
+      "tag": "Inspector_Lakhmi_Chand_Inv_Kotlamubarak_Pur",
+      "patterns": [
+        "Contact details for Inspector Lakhmi Chand Investigating Officer Kotlamubarak Pur",
+        "Who is the Investigating Officer of Kotlamubarak Pur?"
+      ],
+      "responses": [
+        "Inspector Lakhmi Chand\n- Place of Posting: Inspr. (Inv.) Kotlamubarak Pur\n- Mobile No.: 9968561231"
+      ]
+    },
+    {
+      "tag": "Inspector_Sanjeev_Mandal_SHO_Lodhi_Colony",
+      "patterns": [
+        "Contact details for Inspector Sanjeev Mandal SHO Lodhi Colony",
+        "Who is the SHO of Lodhi Colony?"
+      ],
+      "responses": [
+        "Inspector Sanjeev Mandal\n- Place of Posting: SHO/Lodhi Colony\n- Call Sign: Siera-29\n- Mobile No.: 8750870829\n- Landline: 24620283, 24611753"
+      ]
+    },
+    {
+      "tag": "Inspector_Sumit_Kumar_ATO_Lodhi_Colony",
+      "patterns": [
+        "Contact details for Inspector Sumit Kumar ATO Lodhi Colony",
+        "Who is the ATO of Lodhi Colony?"
+      ],
+      "responses": [
+        "Inspector Sumit Kumar\n- Place of Posting: ATO/Lodhi Colony\n- Call Sign: Siera-29A"
+      ]
+    },
+    {
+      "tag": "Inspector_Raj_Kumar_Inv_Lodhi_Colony",
+      "patterns": [
+        "Contact details for Inspector Raj Kumar Investigating Officer Lodhi Colony",
+        "Who is the Investigating Officer of Lodhi Colony?"
+      ],
+      "responses": [
+        "Inspector Raj Kumar\n- Place of Posting: Inspr. (Inv.) Lodhi Colony\n- Call Sign: Siera-29B\n- Mobile No.: 9868101023"
+      ]
+    },
+    {
+      "tag": "Inspector_Sarvesh_ATO_CR_Park",
+      "patterns": [
+        "Contact details for Inspector Sarvesh ATO CR Park",
+        "Who is the ATO of CR Park?"
+      ],
+      "responses": [
+        "Inspector Sarvesh\n- Place of Posting: ATO/CR Park\n- Call Sign: Siera-30A"
+      ]
+    },
+    {
+      "tag": "Inspector_Vacant_Inv_CR_Park",
+      "patterns": [
+        "Contact details for Inspector Vacant Investigating Officer CR Park",
+        "Who is the Investigating Officer of CR Park?"
+      ],
+      "responses": [
+        "Inspector Vacant\n- Place of Posting: Inspr. (Inv.) CR Park\n- Call Sign: Siera-30B"
+      ]
+    },
+    {
+      "tag": "Inspector_Bhanu_Partap_SHO_Greater_Kailash",
+      "patterns": [
+        "Contact details for Inspector Bhanu Partap SHO Greater Kailash",
+        "Who is the SHO of Greater Kailash?"
+      ],
+      "responses": [
+        "Inspector Bhanu Partap\n- Place of Posting: SHO/Greater Kailash\n- Call Sign: Siera-31\n- Mobile No.: 8750870831\n- Landline: 26241076, 26241077"
+      ]
+    },
+    {
+      "tag": "Inspector_Madan_Mohan_ATO_Greater_Kailash",
+      "patterns": [
+        "Contact details for Inspector Madan Mohan ATO Greater Kailash",
+        "Who is the ATO of Greater Kailash?",
+        "inspector madan mohan",
+        "madan mohan inspector",
+        "inspector madan mohan greater kailash",
+        "show me contact details for inspector madan mohan"
+      ],
+      "responses": [
+        "Inspector Madan Mohan\n- Place of Posting: ATO/Greater Kailash\n- Call Sign: Siera-31A"
+      ]
+    },
+    {
+      "tag": "Inspector_Jitender_Singh_Inv_Greater_Kailash",
+      "patterns": [
+        "Contact details for Inspector Jitender Singh Investigating Officer Greater Kailash",
+        "Who is the Investigating Officer of Greater Kailash?",
+        "greater kailash investigating officer",
+        "investigating officer greater kailash",
+        "who is the investigating officer of greater kailash?"
+      ],
+      "responses": [
+        "Inspector Jitender Singh\n- Place of Posting: Inspr. (Inv.) Greater Kailash\n- Call Sign: Siera-31B\n- Mobile No.: 9968001938"
+      ]
+    },
+    {
+      "tag": "Inspector_Sanjeev_Kumar_ATO_Maidan_Garhi",
+      "patterns": [
+        "Contact details for Inspector Sanjeev Kumar ATO Maidan Garhi",
+        "Who is the ATO of Maidan Garhi?"
+      ],
+      "responses": [
+        "Inspector Sanjeev Kumar\n- Place of Posting: ATO/Maidan Garhi\n- Call Sign: Siera-25A\n- Note: Not reported"
+      ]
+    },
+    {
+      "tag": "Inspector_Ram_Pal_SHO_Ambedkar_Nagar",
+      "patterns": [
+        "Contact details for Inspector Ram Pal SHO Ambedkar Nagar",
+        "Who is the SHO of Ambedkar Nagar?"
+      ],
+      "responses": [
+        "Inspector Ram Pal\n- Place of Posting: SHO/Ambedkar Nagar\n- Call Sign: Siera-32\n- Mobile No.: 8750870832\n- Landline: 29051917, 29052304"
+      ]
+    },
+    {
+      "tag": "Inspector_Madhurendra_Kumar_ATO_Ambedkar_Nagar",
+      "patterns": [
+        "Contact details for Inspector Madhurendra Kumar ATO Ambedkar Nagar",
+        "Who is the ATO of Ambedkar Nagar?"
+      ],
+      "responses": [
+        "Inspector Madhurendra Kumar\n- Place of Posting: ATO/Ambedkar Nagar\n- Call Sign: Siera-32A"
+      ]
+    },
+    {
+      "tag": "Inspector_Muneesh_Kumar_Inv_Ambedkar_Nagar",
+      "patterns": [
+        "Contact details for Inspector Muneesh Kumar Investigating Officer Ambedkar Nagar",
+        "Who is the Investigating Officer of Ambedkar Nagar?"
+      ],
+      "responses": [
+        "Inspector Muneesh Kumar\n- Place of Posting: Inspr. (Inv.) Ambedkar Nagar\n- Call Sign: Siera-32B\n- Mobile No.: 7982715335"
+      ]
+    },
+    {
+      "tag": "Inspector_Saroj_Tiwari_SHO_Sangam_Vihar",
+      "patterns": [
+        "Contact details for Inspector Saroj Tiwari SHO Sangam Vihar",
+        "Who is the SHO of Sangam Vihar?",
+        "saroj tiwari sangam vihar",
+        "conact details for saroj tiwari",
+        "inspector saroj tiwari",
+        "inspector saroj tiwari details"
+      ],
+      "responses": [
+        "Inspector Saroj Tiwari\n- Place of Posting: SHO/Sangam Vihar\n- Call Sign: Siera-33\n- Mobile No.: 8750870833\n- Landline: 26042188"
+      ]
+    },
+    {
+      "tag": "Inspector_Prakash_Chand_ATO_Sangam_Vihar",
+      "patterns": [
+        "Contact details for Inspector Prakash Chand ATO Sangam Vihar",
+        "Who is the ATO of Sangam Vihar?"
+      ],
+      "responses": [
+        "Inspector Prakash Chand\n- Place of Posting: ATO/Sangam Vihar\n- Call Sign: Siera-33A"
+      ]
+    },
+    {
+      "tag": "Inspector_Suresh_Choudhary_Inv_Sangam_Vihar",
+      "patterns": [
+        "Contact details for Inspector Suresh Choudhary Investigating Officer Sangam Vihar",
+        "Who is the Investigating Officer of Sangam Vihar?"
+      ],
+      "responses": [
+        "Inspector Suresh Choudhary\n- Place of Posting: Inspr. (Inv.) Sangam Vihar\n- Call Sign: Siera-33B\n- Mobile No.: 8750870893"
+      ]
+    },
+    {
+      "tag": "Inspector_Ravinder_Kumar_SHO_Tigri",
+      "patterns": [
+        "Contact details for Inspector Ravinder Kumar SHO Tigri",
+        "Who is the SHO of Tigri?",
+        "sho at tigri",
+        "tigri sho contact details",
+        "show me contact details for sho of tigri"
+      ],
+      "responses": [
+        "Inspector Ravinder Kumar\n- Place of Posting: SHO/Tigri\n- Call Sign: Siera-34\n- Mobile No.: 8750870834\n- Landline: 26041474"
+      ]
+    },
+    {
+      "tag": "Inspector_Arun_Kumar_Verma_SHO_Cyber",
+      "patterns": [
+        "Contact details for Inspector Arun Kumar Verma SHO Cyber",
+        "Who is the SHO of Cyber?"
+      ],
+      "responses": [
+        "Inspector Sh. Arun Kumar Verma\n- Place of Posting: SHO/Cyber\n- Call Sign: Siera-36\n- Mobile No.: 9871698330"
+      ]
+    },
+    {
+      "tag": "Inspector_Hansa_Ram_PS_Cyber",
+      "patterns": [
+        "Contact details for Inspector Hansa Ram PS Cyber",
+        "Who is the PS Cyber?"
+      ],
+      "responses": [
+        "Inspector Sh. Hansa Ram\n- Place of Posting: PS Cyber\n- Call Sign: Siera-36A\n- Mobile No.: 8368018985"
+      ]
+    },
+    {
+      "tag": "Inspector_Durgadas_ATO_Tigri",
+      "patterns": [
+        "Contact details for Inspector Durgadas ATO Tigri",
+        "Who is the ATO of Tigri?"
+      ],
+      "responses": [
+        "Inspector Durgadas\n- Place of Posting: ATO/Tigri\n- Call Sign: Siera-34A"
+      ]
+    },
+    {
+      "tag": "Inspector_Rakesh_Kumar_Inv_Neb_Sarai",
+      "patterns": [
+        "Contact details for Inspector Rakesh Kumar Investigating Officer Neb Sarai",
+        "Who is the Investigating Officer of Neb Sarai?"
+      ],
+      "responses": [
+        "Inspector Rakesh Kumar\n- Place of Posting: Inspr. (Inv.) Neb Sarai\n- Call Sign: Siera-35B\n- Mobile No.: 9911682121"
+      ]
+    },
+    {
+      "tag": "MCD PRIMARY SCHOOL, OPP ARYA SAMAJ MANDIR, DARAGG, MEHRAULI",
+      "patterns": [
+        "details for MCD PRIMARY SCHOOL",
+        "show more info for Arya Samaj Mandir",
+        "query for Daragg location"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH DELHI-07, AC_NAME: MEHRAULI-45, TOTAL_NUMBER_OF_PS_ON_LOCATION: 10, PS_NUMBERS: [98, 99, 100, 101, 102, 103, 104, 105, 106, 107], POLICE_STATION: MEHRAULI, SUB_DIVISION: MEHRAULI, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: CRITICAL"
+      ]
+    },
+    {
+      "tag": "ST.JOHNS SCHOOL WARD NO.1,MEHRAULI",
+      "patterns": [
+        "details for ST.JOHNS SCHOOL",
+        "show more info for Ward No.1",
+        "query for Mehrauli school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH DELHI-07, AC_NAME: MEHRAULI-45, TOTAL_NUMBER_OF_PS_ON_LOCATION: 2, PS_NUMBERS: [108, 109], POLICE_STATION: MEHRAULI, SUB_DIVISION: MEHRAULI, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GOVT.BOYS SR.SECONDARY SCHOOL,NO.2,MAIN BAZAR,MEHRAULI",
+      "patterns": [
+        "details for GOVT.BOYS SR.SECONDARY SCHOOL",
+        "show more info for Main Bazar",
+        "query for Mehrauli secondary school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH DELHI-07, AC_NAME: MEHRAULI-45, TOTAL_NUMBER_OF_PS_ON_LOCATION: 7, PS_NUMBERS: [110, 111, 112, 113, 114, 115, 116], POLICE_STATION: MEHRAULI, SUB_DIVISION: MEHRAULI, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: CRITICAL"
+      ]
+    },
+    {
+      "tag": "MCD PRIMARY PRATIBHA SCHOOL (GIRL)4/323 MEHRAULI",
+      "patterns": [
+        "details for MCD PRIMARY PRATIBHA SCHOOL",
+        "show more info for Girl School 4/323",
+        "query for Mehrauli primary school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH DELHI-07, AC_NAME: MEHRAULI-45, TOTAL_NUMBER_OF_PS_ON_LOCATION: 4, PS_NUMBERS: [128, 129, 130, 131], POLICE_STATION: MEHRAULI, SUB_DIVISION: MEHRAULI, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "S.S. M SKOOL, GHITORNI, NEAR GHITORNI METRO STATION,MEHRAULI",
+      "patterns": [
+        "details for S.S. M Skool",
+        "show more info for Ghitorni School",
+        "query for Ghitorni location"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH DELHI-07, AC_NAME: MEHRAULI-45, TOTAL_NUMBER_OF_PS_ON_LOCATION: 7, PS_NUMBERS: [132, 133, 134, 135, 136, 137, 138], POLICE_STATION: MEHRAULI, SUB_DIVISION: MEHRAULI, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "SOIL MANAGMENT SOCIETY, GHITORNI",
+      "patterns": [
+        "details for Soil Management Society",
+        "show more info for Ghitorni Society",
+        "query for Soil Management Society"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH DELHI-07, AC_NAME: MEHRAULI-45, TOTAL_NUMBER_OF_PS_ON_LOCATION: 5, PS_NUMBERS: [139, 140, 141, 142, 143], POLICE_STATION: MEHRAULI, SUB_DIVISION: MEHRAULI, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "ADARSH NAGAR, GATE OF SECTOR 21, DWARKA",
+      "patterns": [
+        "details for Adarsh Nagar",
+        "show more info for Gate of Sector 21",
+        "query for Dwarka location"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: DWARKA-36, TOTAL_NUMBER_OF_PS_ON_LOCATION: 4, PS_NUMBERS: [39, 40, 41, 42], POLICE_STATION: DWARKA SOUTH, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: TENT, CRITICAL_OR_NORMAL: CRITICAL"
+      ]
+    },
+    {
+      "tag": "PRIMARY SCHOOL, NEAR SECTOR 5/12 DWARKA",
+      "patterns": [
+        "details for Primary School",
+        "show more info for Sector 5/12 School",
+        "query for Dwarka primary school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: DWARKA-36, TOTAL_NUMBER_OF_PS_ON_LOCATION: 7, PS_NUMBERS: [43, 44, 45, 46, 47, 48, 49], POLICE_STATION: DWARKA SOUTH, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GOVT. CO. EDU. SCHOOL, SEC-6, DWARKA",
+      "patterns": [
+        "details for Govt. Co. Edu. School",
+        "show more info for Sector 6 School",
+        "query for Dwarka Sector 6 school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: DWARKA-36, TOTAL_NUMBER_OF_PS_ON_LOCATION: 8, PS_NUMBERS: [50, 51, 52, 53, 54, 55, 56, 57], POLICE_STATION: DWARKA SOUTH, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+
+    {
+      "tag": "GOVT. GIRLS SENIOR SEC. SCHOOL, DWARKA",
+      "patterns": [
+        "details for Govt. Girls Senior Sec. School",
+        "show more info for Girls Senior Sec. School",
+        "query for Dwarka girls school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: DWARKA-36, TOTAL_NUMBER_OF_PS_ON_LOCATION: 7, PS_NUMBERS: [58, 59, 60, 61, 62, 63, 64], POLICE_STATION: DWARKA SOUTH, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: TENT, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "SARVODAYA KANYA VIDYALAYA, NAJAFGARH",
+      "patterns": [
+        "details for Sarvodaya Kanya Vidyalaya",
+        "show more info for Najafgarh Kanya Vidyalaya",
+        "query for Najafgarh school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: NAJAFGARH-37, TOTAL_NUMBER_OF_PS_ON_LOCATION: 6, PS_NUMBERS: [141, 142, 143, 144, 145, 146], POLICE_STATION: NAJAFGARH, SUB_DIVISION: NAJAFGARH, BUILDING_OR_TENT: TENT, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GGSSS, KAKROLA, DWARKA",
+      "patterns": [
+        "details for GGSSS Kakrola",
+        "show more info for Kakrola GGSSS",
+        "query for Kakrola location"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: MATIALA-35, TOTAL_NUMBER_OF_PS_ON_LOCATION: 4, PS_NUMBERS: [77, 78, 79, 80], POLICE_STATION: KAKROLA, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GGSSS, MATIYALA",
+      "patterns": [
+        "details for GGSSS Matiyala",
+        "show more info for Matiyala GGSSS",
+        "query for Matiyala location"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: MATIALA-35, TOTAL_NUMBER_OF_PS_ON_LOCATION: 6, PS_NUMBERS: [69, 70, 71, 72, 73, 74], POLICE_STATION: MATIYALA, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "SARVODAYA VIDYALAYA, MANGALPURI",
+      "patterns": [
+        "details for Sarvodaya Vidyalaya",
+        "show more info for Mangalpuri Vidyalaya",
+        "query for Mangalpuri school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: MUNDKA-38, TOTAL_NUMBER_OF_PS_ON_LOCATION: 7, PS_NUMBERS: [196, 197, 198, 199, 200, 201, 202], POLICE_STATION: MUNDKA, SUB_DIVISION: MUNDKA, BUILDING_OR_TENT: TENT, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "RAJKIYA SARVODYA BAL VIDYALAYA, MOHAN GARDEN",
+      "patterns": [
+        "details for Rajkiya Sarvodya Bal Vidyalaya",
+        "show more info for Mohan Garden Vidyalaya",
+        "query for Mohan Garden school"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: UTTAM NAGAR-32, TOTAL_NUMBER_OF_PS_ON_LOCATION: 5, PS_NUMBERS: [103, 104, 105, 106, 107], POLICE_STATION: MOHAN GARDEN, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "SKV, MOHAN GARDEN",
+      "patterns": [
+        "details for SKV Mohan Garden",
+        "show more info for Mohan Garden SKV",
+        "query for SKV Mohan Garden"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: UTTAM NAGAR-32, TOTAL_NUMBER_OF_PS_ON_LOCATION: 6, PS_NUMBERS: [100, 101, 102, 103, 104, 105], POLICE_STATION: MOHAN GARDEN, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GGSSS, MOHAN GARDEN",
+      "patterns": [
+        "details for GGSSS Mohan Garden",
+        "show more info for Mohan Garden GGSSS",
+        "query for GGSSS Mohan Garden"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: UTTAM NAGAR-32, TOTAL_NUMBER_OF_PS_ON_LOCATION: 8, PS_NUMBERS: [97, 98, 99, 100, 101, 102, 103, 104], POLICE_STATION: MOHAN GARDEN, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GGSSS, BINDAPUR",
+      "patterns": [
+        "details for GGSSS Bindapur",
+        "show more info for Bindapur GGSSS",
+        "query for GGSSS Bindapur"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: DABRI-36, TOTAL_NUMBER_OF_PS_ON_LOCATION: 5, PS_NUMBERS: [49, 50, 51, 52, 53], POLICE_STATION: BINDAPUR, SUB_DIVISION: DWARKA, BUILDING_OR_TENT: BUILDING, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GGSSS, PATEL NAGAR",
+      "patterns": [
+        "details for GGSSS Patel Nagar",
+        "show more info for Patel Nagar GGSSS",
+        "query for GGSSS Patel Nagar"
+      ],
+      "responses": [
+        "PC_NAME: SOUTH WEST DELHI-08, AC_NAME: PATEL NAGAR-33, TOTAL_NUMBER_OF_PS_ON_LOCATION: 5, PS_NUMBERS: [109, 110, 111, 112, 113], POLICE_STATION: PATEL NAGAR, SUB_DIVISION: PATEL NAGAR, BUILDING_OR_TENT: TENT, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "GSKV, VIKASPURI",
+      "patterns": [
+        "details for GSKV Vikaspuri",
+        "show more info for Vikaspuri GSKV",
+        "query for Vikaspuri GSKV"
+      ],
+      "responses": [
+        "PC_NAME: WEST DELHI-09, AC_NAME: VIKASPURI-37, TOTAL_NUMBER_OF_PS_ON_LOCATION: 6, PS_NUMBERS: [130, 131, 132, 133, 134, 135], POLICE_STATION: VIKASPURI, SUB_DIVISION: PUNJABI BAGH, BUILDING_OR_TENT: TENT, CRITICAL_OR_NORMAL: NORMAL"
+      ]
+    },
+    {
+      "tag": "List of DPO",
+      "patterns": [
+        "Who are our Data Protection Officers?",
+        "List of DPOs",
+        "DPO contact information",
+        "performa for designated thana level police officer in south district",
+        "designated thana level police officer in south district",
+        "give me the list of thana level police officer in south district"
+      ],
+      "responses": [
+        "\n SL. NO. 1\nRANK - SI\nCADRE - EXE.\nNAME - NARENDER\nBELT NO. - D/5780\nPIS NO. - 28070312\nMOB. NO. - 8744878687\nPRESENT POSTING IN DISTRICT - SANGAM VIHAR\n \n SL. NO. 2\nRANK - ASI\nCADRE - EXEC.\nNAME - HEERACHAND MEENA\nBELT NO. - 3473/SD\nPIS NO. - 28010448\nMOB. NO. - 7011824508\nPRESENT POSTING IN DISTRICT - MALVIYA NAGAR\n \n SL. NO. 3\nRANK - ASI\nCADRE - EXEC.\nNAME - BELAS KUJUR\nBELT NO. - 1514/SD\nPIS NO. - 28883983\nMOB. NO. - 9971525030\nPRESENT POSTING IN DISTRICT - SAKET\n \n SL. NO. 4\nRANK - ASI\nCADRE - EXE\nNAME - RAVINDER\nBELT NO. - 555/SD\nPIS NO. - 28960879\nMOB. NO. - 9891433727\nPRESENT POSTING IN DISTRICT - AMBEDKAR NAGAR\n \n SL. NO. 5\nRANK - ASI\nCADRE - EXE.\nNAME - NANDKISHOR\nBELT NO. - 331/SD\nPIS NO. - 28930261\nMOB. NO. - 9990343464\nPRESENT POSTING IN DISTRICT - DEFENCE COLONY\n \n SL. NO. 6\nRANK - ASI\nCADRE - EXE\nNAME - SANJAY\nBELT NO. - 49/SD\nPIS NO. - 28971535\nMOB. NO. - 9354692500\nPRESENT POSTING IN DISTRICT - LODHI COLONY\n \n SL. NO. 7\nRANK - HC\nCADRE - EXE\nNAME - PRITAM SHARMA\nBELT NO. - 1733/SD\nPIS NO. - 28109411\nMOB. NO. - 9079928681\nPRESENT POSTING IN DISTRICT - MAIDAN GARHI\n \n SL. NO. 8\nRANK - ASI\nCADRE - EXE\nNAME - RAJ KUMAR\nBELT NO. - 2675/SD\nPIS NO. - 28861316\nMOB. NO. - 8800976042\nPRESENT POSTING IN DISTRICT - HAUZ KHAS\n \n SL. NO. 9\nRANK - SI\nCADRE - EXE.\nNAME - YOGESH\nBELT NO. - D-5020\nPIS NO. - 16100038\nMOB. NO. - 8447047726\nPRESENT POSTING IN DISTRICT - KOTLA MUBARAK PUR\n \n SL. NO. 10\nRANK - SI\nCADRE - EXE\nNAME - TULSI NAGAR\nBELT NO. - D-843\nPIS NO. - 28092525\nMOB. NO. - 8010165877\nPRESENT POSTING IN DISTRICT - C R PARK\n \n SL. NO. 11\nRANK - ASI\nCADRE - EXE\nNAME - MADHUSUDAN\nBELT NO. - 2650/SD\nPIS NO. - 28930369\nMOB. NO. - 9711926151\nPRESENT POSTING IN DISTRICT - GK\n \n SL. NO. 12\nRANK - HC\nCADRE - EXE.\nNAME - NARENDRA\nBELT NO. - 3814/SD\nPIS NO. - 28105748\nMOB. NO. - 8368393547\nPRESENT POSTING IN DISTRICT - TIGI\n \n SL. NO. 13\nRANK - HC\nCADRE - EXE.\nNAME - SANWARMAL\nBELT NO. - 1150/SD\nPIS NO. - 28040253\nMOB. NO. - 9868773940\nPRESENT POSTING IN DISTRICT - MEHRAULI\n \n SL. NO. 14\nRANK - HC\nCADRE - EXE\nNAME - ANAND PUNIA\nBELT NO. - 1710/SD\nPIS NO. - 28060492\nMOB. NO. - 8005905538\nPRESENT POSTING IN DISTRICT - NEB SARAI\nSL. NO. 15\nRANK - HC\nCADRE - EXC\nNAME - DHARMENDER\nBELT NO. - 1313/SD\nPIS NO. - 28081866\nMOB. NO. - 9999943410\nPRESENT POSTING IN DISTRICT - FATEHPUR BERI\n"
+      ]
+    },
+    {
+      "tag": "RANK SI",
+      "patterns": [
+        "list of Sub Inspectors in south district",
+        "Sub Inspectors",
+        "police officers of rank SI"
+      ],
+      "responses": [
+        "\nSL. NO. 1 \n RANK: SI \nCADRE: EXE.\n NAME: NARENDER \n  BELT NO.: D/5780 \n PIS NO.: 28070312 \n MOB. NO.: 8744878687 \n PRESENT POSTING IN DISTRICT: SANGAM VIHAR\n \n SL. NO. 9 \n RANK: SI \n CADRE: EXE. \n NAME: YOGESH \n BELT NO.: D-5020 \n PIS NO.: 16100038 \n MOB. NO.: 8447047726 \n PRESENT POSTING IN DISTRICT: KOTLA MUBARAK PUR \n \n SL. NO. 10 \n RANK: SI \n CADRE: EXE \n NAME: TULSI NAGAR \n BELT NO.: D-843 \n PIS NO.: 28092525 \n MOB. NO.: 8010165877 \n PRESENT POSTING IN DISTRICT: C R PARK"
+      ]
+    },
+    {
+      "tag": "RANK: ASI",
+      "patterns": [
+        "list of ASIs in south district",
+        "ASI officers in our district",
+        "Who are the ASIs in our area?"
+      ],
+      "responses": [
+        "\nSL. NO. 2 \n RANK: ASI \nCADRE: EXEC.\n NAME: HEERACHAND MEENA \n  BELT NO.: 3473/SD \n PIS NO.: 28010448 \n MOB. NO.: 7011824508 \n PRESENT POSTING IN DISTRICT: MALVIYA NAGAR\n \n SL. NO. 3 \n RANK: ASI \n CADRE: EXEC. \n NAME: BELAS KUJUR \n BELT NO.: 1514/SD \n PIS NO.: 28883983 \n MOB. NO.: 9971525030 \n PRESENT POSTING IN DISTRICT: SAKET \n \n SL. NO. 4 \n RANK: ASI \n CADRE: EXE \n NAME: RAVINDER \n BELT NO.: 555/SD \n PIS NO.: 28960879 \n MOB. NO.: 9891433727 \n PRESENT POSTING IN DISTRICT: AMBEDKAR NAGAR"
+      ]
+    },
+    {
+      "tag": "RANK: HC",
+      "patterns": [
+        "list of Head Constables in south district",
+        "HC officers in our district",
+        "Who are the Head Constables in our area?"
+      ],
+      "responses": [
+        "\nSL. NO. 7 \n RANK: HC \nCADRE: EXE\n NAME: PRITAM SHARMA \n  BELT NO.: 1733/SD \n PIS NO.: 28109411 \n MOB. NO.: 9079928681 \n PRESENT POSTING IN DISTRICT: MAIDAN GARHI\n \n SL. NO. 12 \n RANK: HC \n CADRE: EXE. \n NAME: NARENDRA \n BELT NO.: 3814/SD \n PIS NO.: 28105748 \n MOB. NO.: 8368393547 \n PRESENT POSTING IN DISTRICT: TIGI \n \n SL. NO. 13 \n RANK: HC \n CADRE: EXE. \n NAME: SANWARMAL \n BELT NO.: 1150/SD \n PIS NO.: 28040253 \n MOB. NO.: 9868773940 \n PRESENT POSTING IN DISTRICT: MEHRAULI"
+      ]
+    },
+    {
+      "tag": "Special Police Officer in South District",
+      "patterns": [
+        "List of special police officers in south district",
+        "Special police officer contacts in our area",
+        "Who are the special police officers in our district?"
+      ],
+      "responses": [
+        "\nSL. NO. 1 \n RANK: SI \n CADRE: EXE. \n NAME: ANIL \n BELT NO.: 4502/SD \n PIS NO.: 28860529 \n MOB. NO.: 9911108437 \n PRESENT POSTING IN DISTRICT: PS SANGAM VIHAR \n SECTOR OFFICER NAME: SANJAY KUMAR \n SECTOR OFFICER CNTACT NO.: 9910260529 \n AC NO: 40 \n \n SL. NO. 2 \n RANK: ASI \n CADRE: EXE. \n NAME: HARIYALAL \n BELT NO.: 2106/SD \n PIS NO.: 28883413 \n MOB. NO.: 9582760230 \n PRESENT POSTING IN DISTRICT: PS SANGAM VIHAR \n SECTOR OFFICER NAME: DINESH \n SECTOR OFFICER CNTACT NO.: 9990079040 \n AC NO: 40 \n \n SL. NO. 3 \n RANK: ASI \n CADRE: EXE. \n NAME: SAMMAN KHAN \n BELT NO.: 1004/SD \n PIS NO.: 28884095 \n MOB. NO.: 8750078604 \n PRESENT POSTING IN DISTRICT: PS SANGAM VIHAR \n SECTOR OFFICER NAME: - \n SECTOR OFFICER CNTACT NO.: - \n AC NO: 42 \n \n SL. NO. 4 \n RANK: ASI \n CADRE: EXE. \n NAME: SURAJ BHAN \n BELT NO.: 1808/SD \n PIS NO.: 28893051 \n MOB. NO.: 9971023741 \n PRESENT POSTING IN DISTRICT: PS SANGAM VIHAR \n SECTOR OFFICER NAME: ANKIT JUNEJA \n SECTOR OFFICER CNTACT NO.: 9717432499 \n AC NO: 42 \n \n SL. NO. 5 \n RANK: ASI \n CADRE: EXE. \n NAME: SANJAY \n BELT NO.: 276/SD \n PIS NO.: 28884435 \n MOB. NO.: 9818247143 \n PRESENT POSTING IN DISTRICT: PS SANGAM VIHAR \n SECTOR OFFICER NAME: JITENDER KUMAR KUKREJA \n SECTOR OFFICER CNTACT NO.: 9810834390 \n AC NO: 42 \n \n SL. NO. 6 \n RANK: HC \n CADRE: EXE. \n NAME: DHARAM SINGH \n BELT NO.: 1321/SD \n PIS NO.: 28110077 \n MOB. NO.: 9718924074 \n PRESENT POSTING IN DISTRICT: PS SANGAM VIHAR \n SECTOR OFFICER NAME: RAMANAND YADAV \n SECTOR OFFICER CNTACT NO.: 9911528778 \n AC NO: 42"
+      ]
+    },
+    {
+      "tag": "SPOS SANGAM VIHAR",
+      "patterns": [
+        "special police officers in ps sangam vihar",
+        "list of special police officers in ps sangam vihar",
+        "SPOs in ps sangam vihar",
+        "SPOs ps sangam vihar"
+      ],
+      "responses": [
+        "SECTOR OFFICER NAME : SANJAY KUMAR\nSECTOR OFFICER CONTACT NO. 9910260529\nAC NO 40\n\nSECTOR OFFICER NAME : DINESH\nSECTOR OFFICER CONTACT NO. 9990079040\nAC NO 40\n\nSECTOR OFFICER NAME : ANKIT JUNEJA\nSECTOR OFFICER CONTACT NO. 9717432499\nAC NO 42\n\nSECTOR OFFICER NAME : JITENDER KUMAR KUKREJA\nSECTOR OFFICER CONTACT NO. 9810834390\nAC NO 42\n\nSECTOR OFFICER NAME : RAMANAND YADAV\nSECTOR OFFICER CONTACT NO. 9911528778\nAC NO 42\n\nSECTOR OFFICER NAME : ASHUTOSH GUPTA\nSECTOR OFFICER CONTACT NO. 9413033724\nAC NO 42\n\nSECTOR OFFICER NAME : SUMIT SINGH\nSECTOR OFFICER CONTACT NO. 9412221787\nAC NO 42"
+      ]
+    },
+    {
+      "tag": "SPOS MALVIYA NAGAR",
+      "patterns": [
+        "special police officers in ps malviya nagar",
+        "list of special police officers in ps malviya nagar",
+        "SPOs in ps MALVIYA NAGAR",
+        "SPOs ps MALVIYA NAGAR"
+      ],
+      "responses": [
+        "SECTOR OFFICER NAME : TANMAY TEJASWEE\nSECTOR OFFICER CONTACT NO. 9582622309\nAC NO 42\n\nSECTOR OFFICER NAME : HITENDER KUMAR\nSECTOR OFFICER CONTACT NO. 7678207181\nAC NO 42\n\nSECTOR OFFICER NAME : NAND LAL CHAUDHARY\nSECTOR OFFICER CONTACT NO. 9412153272\nAC NO 42\n\nSECTOR OFFICER NAME : RAM KISHAN\nSECTOR OFFICER CONTACT NO. 9868741664\nAC NO 42\n\nSECTOR OFFICER NAME : GV PRUDHVEE SAGAR\nSECTOR OFFICER CONTACT NO. 9182835899\nAC NO 43"
+      ]
+    },
+    {
+      "tag": "SPOS AMBEDKAR NAGAR",
+      "patterns": [
+        "special police officers in ps AMBEDKAR NAGAR",
+        "list of special police officers in ps AMBEDKAR NAGAR",
+        "SPOs in ps AMBEDKAR NAGAR",
+        "SPOs ps AMBEDKAR NAGAR"
+      ],
+      "responses": [
+        "SECTOR OFFICER NAME : OMPRAKASH\nSECTOR OFFICER CONTACT NO. 6375847221\nAC NO 43\n\nSECTOR OFFICER NAME : SANDEEP\nSECTOR OFFICER CONTACT NO. 70876315711\nAC NO 45\n\nSECTOR OFFICER NAME : SAHIL\nSECTOR OFFICER CONTACT NO. 9882251778\nAC NO 45\n\nSECTOR OFFICER NAME : VIJAY KUMAR SINGH\nSECTOR OFFICER CONTACT NO. 8948556555\nAC NO 45\n\nSECTOR OFFICER NAME : GURAV SHARMA\nSECTOR OFFICER CONTACT NO. 9149749929\nAC NO 45\n\nSECTOR OFFICER NAME : LIYAKAT HUSSAIN\nSECTOR OFFICER CONTACT NO. 9891417723\nAC NO 45"
+      ]
+    },
+    {
+      "tag": "PS GK",
+      "patterns": [
+        "special police officers in ps gk",
+        "list of special police officers in ps GK",
+        "SPOs in ps GK",
+        "SPOs ps GK"
+      ],
+      "responses": [
+        "SECTOR OFFICER NAME : ABHAY\nSECTOR OFFICER CONTACT NO. 9636014299\nAC NO 45\n\nSECTOR OFFICER NAME : CHANDER PRAKASH MEENA\nSECTOR OFFICER CONTACT NO. 9910769635\nAC NO 48\n\nSECTOR OFFICER NAME : RAJENDER KUMAR\nSECTOR OFFICER CONTACT NO. 9971866754\nAC NO 48\n\nSECTOR OFFICER NAME : RAMKESH MALI\nSECTOR OFFICER CONTACT NO. 9887846639\nAC NO 48\n\nSECTOR OFFICER NAME : P. NARESH CHAWAN\nSECTOR OFFICER CONTACT NO. 9014197111\nAC NO 48\n\nSECTOR OFFICER NAME : NAMAN VERMA\nSECTOR OFFICER CONTACT NO. 7507091039\nAC NO 48\n\nSECTOR OFFICER NAME : HEMANT KUMAR PANIDA\nSECTOR OFFICER CONTACT NO. 8860017940\nAC NO 48\n\nSECTOR OFFICER NAME : AKSHAY KUMAR\nSECTOR OFFICER CONTACT NO. 9711282135\nAC NO 48"
+      ]
+    }
+  ]
+}
